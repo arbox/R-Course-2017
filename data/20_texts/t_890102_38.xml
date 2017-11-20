@@ -1,0 +1,3955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<corpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/afs/sfs.uni-tuebingen.de/i386_linux24/tigsr21/schema/TigerXML.xsd" id="tubadz-rel-900-mit-NE" corpusname="tubadz-rel-900-mit-NE" target="fragments/t_890102_38">
+  <head>
+    <meta>
+      <format>Negra Format, Version 4</format>
+    </meta>
+    <annotation>
+      <feature name="word" domain="T"/>
+      <feature name="lemma" domain="T"/>
+      <feature name="pos" domain="T">
+        <value name="$(">sonstige Satzzeichen; satzintern</value>
+        <value name="$,">Komma</value>
+        <value name="$.">satzbeendende Interpunktion</value>
+        <value name="ADJA">attributives Adjektiv</value>
+        <value name="ADJD">adverbiales oder prädikatives Adjektiv</value>
+        <value name="ADV">Adverb</value>
+        <value name="APPO">Postposition</value>
+        <value name="APPR">Präposition; Zirkumposition links</value>
+        <value name="APPRART">Präposition mit Artikel</value>
+        <value name="APZR">Zirkumposition rechts</value>
+        <value name="ART">bestimmter oder unbestimmter Artikel</value>
+        <value name="CARD">Kardinalzahl</value>
+        <value name="FM">Fremdsprachliches Material</value>
+        <value name="ITJ">Interjektion</value>
+        <value name="KOKOM">Vergleichspartikel, ohne Satz</value>
+        <value name="KON">nebenordnende Konjunktion</value>
+        <value name="KOUI">unterordnende Konjunktion mit "zu" + Infinitiv</value>
+        <value name="KOUS">unterordnende Konjunktion mit Satz</value>
+        <value name="NE">Eigenname</value>
+        <value name="NN">Nomen</value>
+        <value name="PDAT">attribuierendes Demonstrativpronomen</value>
+        <value name="PDS">substituierendes Demonstrativpronomen</value>
+        <value name="PIAT">attribuierendes Indefinitpronomen ohne Determinierer</value>
+        <value name="PIDAT">attribuierendes Indefinitpronomen mit Determinierer</value>
+        <value name="PIS">substituierendes Indefinitpronomen</value>
+        <value name="PPER">irreflexives Personalpronomen</value>
+        <value name="PPOSAT">attribuierendes Possessivpronomen</value>
+        <value name="PPOSS">substituierendes Possessivpronomen</value>
+        <value name="PRELAT">attribuierendes Relativpronomen</value>
+        <value name="PRELS">substituierendes Relativpronomen</value>
+        <value name="PRF">reflexives Personalpronomen</value>
+        <value name="PROP">pronominale Form einer Präpositionalphrase (im STTS PAV)</value>
+        <value name="PTKA">Partikel bei Adjektiv oder Adverb</value>
+        <value name="PTKANT">Antwortpartikel</value>
+        <value name="PTKNEG">Negationspartikel</value>
+        <value name="PTKVZ">abgetrennter Verbzusatz</value>
+        <value name="PTKZU">zu + Infinitiv</value>
+        <value name="PWAT">attribuierendes Interrogativpronomen</value>
+        <value name="PWAV">adverbiales Interrogativ- oder Relativpronomen</value>
+        <value name="PWS">substituierendes Interrogativpronomen</value>
+        <value name="TRUNC">Kompositions-Erstglied</value>
+        <value name="VAFIN">finites Verb, aux</value>
+        <value name="VAIMP">Imperativ, aux</value>
+        <value name="VAINF">Infinitiv, aux</value>
+        <value name="VAPP">Partizip Perfekt, aux</value>
+        <value name="VMFIN">finites Verb, modal</value>
+        <value name="VMINF">Infinitiv, modal</value>
+        <value name="VMPP">Partizip Perfekt, modal</value>
+        <value name="VVFIN">finites Verb, voll</value>
+        <value name="VVIMP">Imperativ, voll</value>
+        <value name="VVINF">Infinitiv, voll</value>
+        <value name="VVIZU">Infinitiv + "zu", voll</value>
+        <value name="VVPP">Partizip Perfekt, voll</value>
+        <value name="XY">Nichtwort, Sonderzeichen enthaltend</value>
+      </feature>
+      <feature name="morph" domain="T">
+        <value name="*">ambig</value>
+        <value name="***">* * *</value>
+        <value name="****">"Vorfeld-es"</value>
+        <value name="*p*">* plur. *</value>
+        <value name="*p*1">* plur. * 1.pers.</value>
+        <value name="*p*2">* plur. * 2.pers.</value>
+        <value name="*p*3">* plur. * 3.pers.</value>
+        <value name="*pf">* plur. fem.</value>
+        <value name="*pm">* plur. mask.</value>
+        <value name="*pn">* plur. neut.</value>
+        <value name="*s*">* sing. *</value>
+        <value name="*sf">* sing. fem.</value>
+        <value name="*sm">* sing. mask.</value>
+        <value name="*sn">* sing. neut.</value>
+        <value name="--">ohne Morphologie</value>
+        <value name="1pis">1.pers. plur. ind. präs.</value>
+        <value name="1pit">1.pers. plur. ind. prät.</value>
+        <value name="1pks">1.pers. plur. konj. präs.</value>
+        <value name="1pkt">1.pers. plur. konj. prät.</value>
+        <value name="1sis">1.pers. sing. ind. präs.</value>
+        <value name="1sit">1.pers. sing. ind. prät.</value>
+        <value name="1sks">1.pers. sing. konj. präs.</value>
+        <value name="1skt">1.pers. sing. konj. prät.</value>
+        <value name="2pis">2.pers. plur. ind. präs.</value>
+        <value name="2pit">2.pers. plur. ind. prät.</value>
+        <value name="2pks">2.pers. plur. konj. präs.</value>
+        <value name="2pkt">2.pers. plur. konj. prät.</value>
+        <value name="2sis">2.pers. sing. ind. präs.</value>
+        <value name="2sit">2.pers. sing. ind. prät.</value>
+        <value name="2sks">2.pers. sing. konj. präs.</value>
+        <value name="2skt">2.pers. sing. konj. prät.</value>
+        <value name="3pis">3.pers. plur. ind. präs.</value>
+        <value name="3pit">3.pers. plur. ind. prät.</value>
+        <value name="3pks">3.pers. plur. konj. präs.</value>
+        <value name="3pkt">3.pers. plur. konj. prät.</value>
+        <value name="3si*">3.pers. sing. ind. *</value>
+        <value name="3sis">3.pers. sing. ind. präs.</value>
+        <value name="3sit">3.pers. sing. ind. prät.</value>
+        <value name="3sks">3.pers. sing. konj. präs.</value>
+        <value name="3skt">3.pers. sing. konj. prät.</value>
+        <value name="a">akk.</value>
+        <value name="a**">akk. * *</value>
+        <value name="a**3">akk. * * 3.pers.</value>
+        <value name="a*f">akk. * fem.</value>
+        <value name="a*m">akk. * mask.</value>
+        <value name="a*n">akk. * neut.</value>
+        <value name="ap*">akk. plur. *</value>
+        <value name="ap*1">akk. plur. * 1.pers.</value>
+        <value name="ap*2">akk. plur. * 2.pers.</value>
+        <value name="ap*3">akk. plur. * 3.pers.</value>
+        <value name="apf">akk. plur. fem.</value>
+        <value name="apm">akk. plur. mask.</value>
+        <value name="apn">akk. plur. neut.</value>
+        <value name="as*">akk. sing. *</value>
+        <value name="as*1">akk. sing. * 1.pers.</value>
+        <value name="as*2">akk. sing. * 2.pers.</value>
+        <value name="as*3">akk. sing. * 3.pers.</value>
+        <value name="asf">akk. sing. fem.</value>
+        <value name="asf3">akk. sing. fem. 3.pers.</value>
+        <value name="asm">akk. sing. mask.</value>
+        <value name="asm3">akk. sing. mask. 3.pers.</value>
+        <value name="asn">akk. sing. neut.</value>
+        <value name="asn3">akk. sing. neut. 3.pers.</value>
+        <value name="d">dat.</value>
+        <value name="d**">dat. * *</value>
+        <value name="d**3">dat. * * 3.pers.</value>
+        <value name="d*f">dat. * fem.</value>
+        <value name="d*m">dat. * mask.</value>
+        <value name="d*n">dat. * neut.</value>
+        <value name="dp*">dat. plur. *</value>
+        <value name="dp*1">dat. plur. * 1.pers.</value>
+        <value name="dp*2">dat. plur. * 2.pers.</value>
+        <value name="dp*3">dat. plur. * 3.pers.</value>
+        <value name="dpf">dat. plur. fem.</value>
+        <value name="dpm">dat. plur. mask.</value>
+        <value name="dpn">dat. plur. neut.</value>
+        <value name="ds*">dat. sing. *</value>
+        <value name="ds*1">dat. sing. * 1.pers.</value>
+        <value name="ds*2">dat. sing. * 2.pers.</value>
+        <value name="ds*3">dat. sing. * 3.pers.</value>
+        <value name="dsf">dat. sing. fem.</value>
+        <value name="dsf3">dat. sing. fem. 3.pers.</value>
+        <value name="dsm">dat. sing. mask.</value>
+        <value name="dsm3">dat. sing. mask. 3.pers.</value>
+        <value name="dsn">dat. sing. neut.</value>
+        <value name="dsn3">dat. sing. neut. 3.pers.</value>
+        <value name="g">gen.</value>
+        <value name="g**">gen. * *</value>
+        <value name="g**3">gen. * * 3.pers.</value>
+        <value name="g*f">gen. * fem.</value>
+        <value name="g*m">gen. * mask.</value>
+        <value name="g*n">gen. * neut.</value>
+        <value name="gp*">gen. plur. *</value>
+        <value name="gp*1">gen. plur. * 1.pers.</value>
+        <value name="gp*2">gen. plur. * 2.pers.</value>
+        <value name="gp*3">gen. plur. * 3.pers.</value>
+        <value name="gpf">gen. plur. fem.</value>
+        <value name="gpm">gen. plur. mask.</value>
+        <value name="gpn">gen. plur. neut.</value>
+        <value name="gs*">gen. sing. *</value>
+        <value name="gs*1">gen. sing. * 1.pers.</value>
+        <value name="gs*2">gen. sing. * 2.pers.</value>
+        <value name="gs*3">gen. sing. * 3.pers.</value>
+        <value name="gsf">gen. sing. fem.</value>
+        <value name="gsf3">gen. sing. fem. 3.pers.</value>
+        <value name="gsm">gen. sing. mask.</value>
+        <value name="gsm3">gen. sing. mask. 3.pers.</value>
+        <value name="gsn">gen. sing. neut.</value>
+        <value name="gsn3">gen. sing. neut. 3.pers.</value>
+        <value name="n">nom.</value>
+        <value name="n**">nom. * *</value>
+        <value name="n**3">nom. * * 3.pers.</value>
+        <value name="n*f">nom. * fem.</value>
+        <value name="n*m">nom. * mask.</value>
+        <value name="n*n">nom. * neut.</value>
+        <value name="np*">nom. plur. *</value>
+        <value name="np*1">nom. plur. * 1.pers.</value>
+        <value name="np*2">nom. plur. * 2.pers.</value>
+        <value name="np*3">nom. plur. * 3.pers.</value>
+        <value name="npf">nom. plur. fem.</value>
+        <value name="npm">nom. plur. mask.</value>
+        <value name="npn">nom. plur. neut.</value>
+        <value name="ns*">nom. sing. *</value>
+        <value name="ns*1">nom. sing. * 1.pers.</value>
+        <value name="ns*2">nom. sing. * 2.pers.</value>
+        <value name="ns*3">nom. sing. * 3.pers.</value>
+        <value name="nsf">nom. sing. fem.</value>
+        <value name="nsf3">nom. sing. fem. 3.pers.</value>
+        <value name="nsm">nom. sing. mask.</value>
+        <value name="nsm3">nom. sing. mask. 3.pers.</value>
+        <value name="nsn">nom. sing. neut.</value>
+        <value name="nsn3">nom. sing. neut. 3.pers.</value>
+        <value name="p">plur.</value>
+        <value name="s">sing.</value>
+      </feature>
+      <feature name="cat" domain="NT">
+        <value name="ADJX">Adjektivphrase</value>
+        <value name="ADJX=ORG">Adjektivphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="ADJX=OTH">Adjektivphrase; Eigenname der Klasse "sonstiges"</value>
+        <value name="ADVX">Adverbialphrase</value>
+        <value name="ADVX=ORG">Adverbialphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="ADVX=OTH">Adverbialphrase; Eigenname der Klasse "sonstiges"</value>
+        <value name="C">Feld für Komplementierer bei Verb-letzt-Sätzen</value>
+        <value name="DM">Diskursmarker</value>
+        <value name="DM=ORG">Diskursmarker; Eigenname der Klasse "Organisation"</value>
+        <value name="DM=OTH">Diskursmarker; Eigenname der Klasse "sonstiges"</value>
+        <value name="DP">Determiniererphrase</value>
+        <value name="FKONJ">Konjunkt, bestehend aus mehr als einem Feld</value>
+        <value name="FKOORD">komplexe Felderkoordination</value>
+        <value name="FX">Konstituente (Phrase, Satz) aus fremdsprachlichem Material</value>
+        <value name="FX=OTH">fremdsprachl. Konst.; Eigenname der Klasse "sonstiges"</value>
+        <value name="KOORD">Feld für koordinierende Partikeln</value>
+        <value name="LK">Linke Satzklammer</value>
+        <value name="LV">Feld für Linksversetzungen</value>
+        <value name="MF">Mittelfeld</value>
+        <value name="MFE">zweites Mittelfeld in Ersatzinfinitiv-Konstruktionen</value>
+        <value name="NF">Nachfeld</value>
+        <value name="NX">Nominalphrase</value>
+        <value name="NX=GPE">Nominalphrase; Eigenname der Klasse "Gebietskörperschaft"</value>
+        <value name="NX=LOC">Nominalphrase; Eigenname der Klasse "geographischer Ort"</value>
+        <value name="NX=ORG">Nominalphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="NX=OTH">Nominalphrase; Eigenname der Klasse "sonstiges"</value>
+        <value name="NX=PER">Nominalphrase; Eigenname der Klasse "Person"</value>
+        <value name="P-SIMPX">parataktische Konstruktion von Simplex-Sätzen</value>
+        <value name="PARORD">Feld für nicht-koordinierende beiordnende Partikeln (V2)</value>
+        <value name="PX">Präpositionalphrase</value>
+        <value name="PX=GPE">Präpositionalphrase; Eigenname d. Kl. "Gebietskörperschaft"</value>
+        <value name="PX=LOC">Präpositionalphrase; Eigenname d. Kl. "geographischer Ort"</value>
+        <value name="PX=ORG">Präpositionalphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="PX=OTH">Präpositionalphrase; Eigenname der Klasse "sonstiges"</value>
+        <value name="PX=PER">Präpositionalphrase; Eigenname der Klasse "Person"</value>
+        <value name="R-SIMPX">Relativsatz</value>
+        <value name="R-SIMPX=ORG">Relativsatz; Eigenname der Klasse "Organisation"</value>
+        <value name="R-SIMPX=OTH">Relativsatz; Eigenname der Klasse "sonstiges"</value>
+        <value name="SIMPX">Simplex-Satz</value>
+        <value name="SIMPX=ORG">Simplex-Satz; Eigenname der Klasse "Organisation"</value>
+        <value name="SIMPX=OTH">Simplex-Satz; Eigenname der Klasse "sonstiges"</value>
+        <value name="VC">Verbkomplex</value>
+        <value name="VCE">Verbkomplex m. abgespaltenem Finitum in Ersatz-Inf-Konstr.</value>
+        <value name="VF">Vorfeld</value>
+        <value name="VXFIN">finite Verbalphrase</value>
+        <value name="VXFIN=ORG">finite Verbalphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="VXFIN=OTH">finite Verbalphrase; Eigenname der Klasse "sonstiges"</value>
+        <value name="VXINF">infinite Verbalphrase</value>
+        <value name="VXINF=ORG">infinite Verbalphrase; Eigenname der Klasse "Organisation"</value>
+        <value name="VXINF=OTH">infinite Verbalphrase; Eigenname der Klasse "sonstiges"</value>
+      </feature>
+      <edgelabel>
+        <value name="-">Nicht-Kopf (non-head)</value>
+        <value name="--">&lt;nicht gebunden&gt;</value>
+        <value name="-NE">Nicht-Kopf; Knoten ist nicht Teil des Eigennamens</value>
+        <value name="APP">Apposition</value>
+        <value name="ES">Vorfeld-"es" (strukturelles Expletiv)</value>
+        <value name="FOPP">fakultatives Präpositional-Objekt</value>
+        <value name="FOPP-MOD">Modifikator eines fakultativen Präpositional-Objekts</value>
+        <value name="FOPPK">Konjunkt eines fakultativen Präpositional-Objekts</value>
+        <value name="FOPPMODK">Konjunkt eines Modifikators eines fak. Präpositional-Objekts</value>
+        <value name="HD">Kopf (head)</value>
+        <value name="KONJ">Konjunkt</value>
+        <value name="MOD">ambiger Modifikator</value>
+        <value name="MOD-MOD">Modifikator eines Modifikators</value>
+        <value name="MOD-MODK">Konjunkt eines Modifikators eines anderen Modifikators</value>
+        <value name="MODK">Konjunkt eines ambigen Modifikators</value>
+        <value name="OA">Akkusativ-Objekt</value>
+        <value name="OA-MOD">Akkusativ-Objekt-Modifikator</value>
+        <value name="OA-MODK">Konjunkt eines Akkusativ-Objekt-Modifikators</value>
+        <value name="OADJP">Adjektiv-Objekt</value>
+        <value name="OADJP-MK">Konjunkt eines Adjektiv-Objekt-Modifikators</value>
+        <value name="OADJP-MO">Adjektiv-Objekt-Modifikator</value>
+        <value name="OADJPK">Konjunkt des Adjektiv-Objekts</value>
+        <value name="OADVP">Adverbial-Objekt</value>
+        <value name="OADVP-MK">Konjunkt eines Adverbial-Objekt-Modifikators</value>
+        <value name="OADVP-MO">Adverbial-Objekt-Modifikator</value>
+        <value name="OADVPK">Konjunkt des Adverbial-Objekts</value>
+        <value name="OAK">Konjunkt des Akkusativ-Objekts</value>
+        <value name="OD">Dativ-Objekt</value>
+        <value name="OD-MOD">Dativ-Objekt-Modifikator</value>
+        <value name="OD-MODK">Konjunkt eines Dativ-Objekt-Modifikators</value>
+        <value name="ODK">Konjunkt des Dativ-Objekts</value>
+        <value name="OG">Genitiv-Objekt</value>
+        <value name="OG-MOD">Genitiv-Objekt-Modifikator</value>
+        <value name="OG-MODK">Konjunkt eines Genitiv-Objekt-Modifikators</value>
+        <value name="OGK">Konjunkt des Genitiv-Objekts</value>
+        <value name="ON">Nominativ-Objekt (= Subjekt)</value>
+        <value name="ON-MOD">Nominativ-Objekt-Modifikator</value>
+        <value name="ON-MODK">Konjunkt eines Nominativ-Objekt-Modifikators</value>
+        <value name="ONK">Konjunkt des Nominativ-Objekts</value>
+        <value name="OPP">obligatorisches Präpositional-Objekt</value>
+        <value name="OPP-MOD">Modifikator eines obligatorischen Präpositional-Objekts</value>
+        <value name="OPP-MODK">Konjunkt eines Modifikators eines oblig. PP-Objekts</value>
+        <value name="OPPK">Konjunkt eines obligatorischen Präpositional-Objekts</value>
+        <value name="OS">Objektsatz</value>
+        <value name="OS-MOD">Objektsatz-Modifikator</value>
+        <value name="OSK">Konjunkt des Satzobjekts</value>
+        <value name="OV">verbales Objekt</value>
+        <value name="PRED">Prädikativ</value>
+        <value name="PRED-MOD">Prädikativ-Modifikator</value>
+        <value name="PREDK">Konjunkt eines Prädikativs</value>
+        <value name="PREDMODK">Konjunkt eines Prädikativ-Modifikator</value>
+        <value name="V-MOD">Verb-Modifikator</value>
+        <value name="V-MODK">Konjunkt eines Verb-Modifikators</value>
+        <value name="VPT">abtrennbare Verbpartikel</value>
+      </edgelabel>
+      <secedgelabel>
+        <value name="refcontr">Dependenzrelation zw. Kontrollverb u. seinem Komplement</value>
+        <value name="refint">Dependenzrel. zw. phraseninternem Teil u. dessen Modifikator</value>
+        <value name="refmod">Dependenzrelation bei ambiger Modifikation</value>
+        <value name="refvc">Dependenzrelation zw. zwei verbalen Objekten im Verbkomplex</value>
+      </secedgelabel>
+    </annotation>
+  </head>
+  <body>
+    <s id="s63329">
+      <graph root="s63329_507">
+        <terminals>
+          <t id="s63329_1" word="Doch" lemma="doch" pos="KON" morph="--"/>
+          <t id="s63329_2" word="V-Leute" lemma="V-Leute" pos="NN" morph="np*"/>
+          <t id="s63329_3" word="in" lemma="in" pos="APPR" morph="a"/>
+          <t id="s63329_4" word="die" lemma="die" pos="ART" morph="asf"/>
+          <t id="s63329_5" word="taz" lemma="taz" pos="NE" morph="asf"/>
+          <t id="s63329_6" word="eingeschleust" lemma="ein#schleusen" pos="VVPP" morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63329_500" cat="KOORD">
+            <edge label="-" idref="s63329_1"/>
+          </nt>
+          <nt id="s63329_501" cat="NX">
+            <edge label="HD" idref="s63329_2"/>
+          </nt>
+          <nt id="s63329_502" cat="NX=ORG">
+            <edge label="-NE" idref="s63329_4"/>
+            <edge label="HD" idref="s63329_5"/>
+          </nt>
+          <nt id="s63329_503" cat="VXINF">
+            <edge label="HD" idref="s63329_6"/>
+          </nt>
+          <nt id="s63329_504" cat="PX">
+            <edge label="-" idref="s63329_3"/>
+            <edge label="HD" idref="s63329_502"/>
+          </nt>
+          <nt id="s63329_505" cat="VC">
+            <edge label="HD" idref="s63329_503"/>
+          </nt>
+          <nt id="s63329_506" cat="MF">
+            <edge label="ON" idref="s63329_501"/>
+            <edge label="FOPP" idref="s63329_504"/>
+          </nt>
+          <nt id="s63329_507" cat="SIMPX">
+            <edge label="-" idref="s63329_500"/>
+            <edge label="-" idref="s63329_505"/>
+            <edge label="-" idref="s63329_506"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63330">
+      <graph root="s63330_VROOT">
+        <terminals>
+          <t id="s63330_1" word="Verfassungsschutzbeamte" lemma="Verfassungsschutzbeamter" pos="NN" morph="npm"/>
+          <t id="s63330_2" word="bestätigen" lemma="bestätigen" pos="VVFIN" morph="3pis"/>
+          <t id="s63330_3" word="den" lemma="der" pos="ART" morph="asm"/>
+          <t id="s63330_4" word="Einsatz" lemma="Einsatz" pos="NN" morph="asm"/>
+          <t id="s63330_5" word="von" lemma="von" pos="APPR" morph="d"/>
+          <t id="s63330_6" word="V-Leuten" lemma="V-Leute" pos="NN" morph="dp*"/>
+          <t id="s63330_7" word="in" lemma="in" pos="APPR" morph="d"/>
+          <t id="s63330_8" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63330_9" word="taz" lemma="taz" pos="NE" morph="dsf"/>
+          <t id="s63330_10" word="seit" lemma="seit" pos="APPR" morph="d"/>
+          <t id="s63330_11" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63330_12" word="Gründung" lemma="Gründung" pos="NN" morph="dsf"/>
+          <t id="s63330_13" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63330_14" word="Zeitung" lemma="Zeitung" pos="NN" morph="gsf"/>
+          <t id="s63330_15" word="1979" lemma="1979" pos="CARD" morph="--"/>
+          <t id="s63330_16" word="/" lemma="/" pos="$(" morph="--"/>
+          <t id="s63330_17" word="Alle" lemma="alle" pos="PIDAT" morph="npm"/>
+          <t id="s63330_18" word="taz-Redakteure" lemma="taz-Redakteur" pos="NN" morph="npm"/>
+          <t id="s63330_19" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63330_20" word="NADIS-Computer" lemma="NADIS-Computer" pos="NN" morph="dsm"/>
+          <t id="s63330_21" word="gespeichert" lemma="speichern" pos="VVPP" morph="--"/>
+          <t id="s63330_22" word="/" lemma="/" pos="$(" morph="--"/>
+          <t id="s63330_23" word="Schmücker-Anwalt" lemma="Schmücker-Anwalt" pos="NN" morph="nsm"/>
+          <t id="s63330_24" word="ebenfalls" lemma="ebenfalls" pos="ADV" morph="--"/>
+          <t id="s63330_25" word="durch" lemma="durch" pos="APPR" morph="a"/>
+          <t id="s63330_26" word="V-Mann" lemma="V-Mann" pos="NN" morph="asm"/>
+          <t id="s63330_27" word="ausgespäht" lemma="aus#spähen" pos="VVPP" morph="--"/>
+          <t id="s63330_28" word="/" lemma="/" pos="$(" morph="--"/>
+          <t id="s63330_29" word="Verteidigerstrategie" lemma="Verteidigerstrategie" pos="NN" morph="nsf"/>
+          <t id="s63330_30" word="an" lemma="an" pos="APPR" morph="a"/>
+          <t id="s63330_31" word="Anklage" lemma="Anklage" pos="NN" morph="asf"/>
+          <t id="s63330_32" word="weitergeleitet" lemma="weiter#leiten" pos="VVPP" morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63330_500" cat="NX">
+            <edge label="HD" idref="s63330_1"/>
+          </nt>
+          <nt id="s63330_501" cat="VXFIN">
+            <edge label="HD" idref="s63330_2"/>
+          </nt>
+          <nt id="s63330_502" cat="NX">
+            <edge label="-" idref="s63330_3"/>
+            <edge label="HD" idref="s63330_4"/>
+          </nt>
+          <nt id="s63330_503" cat="NX">
+            <edge label="HD" idref="s63330_6"/>
+          </nt>
+          <nt id="s63330_504" cat="NX=ORG">
+            <edge label="-NE" idref="s63330_8"/>
+            <edge label="HD" idref="s63330_9"/>
+          </nt>
+          <nt id="s63330_505" cat="NX">
+            <edge label="-" idref="s63330_11"/>
+            <edge label="HD" idref="s63330_12"/>
+          </nt>
+          <nt id="s63330_506" cat="NX">
+            <edge label="-" idref="s63330_13"/>
+            <edge label="HD" idref="s63330_14"/>
+          </nt>
+          <nt id="s63330_507" cat="NX">
+            <edge label="HD" idref="s63330_15"/>
+          </nt>
+          <nt id="s63330_508" cat="NX">
+            <edge label="-" idref="s63330_17"/>
+            <edge label="HD" idref="s63330_18"/>
+          </nt>
+          <nt id="s63330_509" cat="NX">
+            <edge label="HD" idref="s63330_20"/>
+          </nt>
+          <nt id="s63330_510" cat="VXINF">
+            <edge label="HD" idref="s63330_21"/>
+          </nt>
+          <nt id="s63330_511" cat="NX">
+            <edge label="HD" idref="s63330_23"/>
+          </nt>
+          <nt id="s63330_512" cat="ADVX">
+            <edge label="HD" idref="s63330_24"/>
+          </nt>
+          <nt id="s63330_513" cat="NX">
+            <edge label="HD" idref="s63330_26"/>
+          </nt>
+          <nt id="s63330_514" cat="VXINF">
+            <edge label="HD" idref="s63330_27"/>
+          </nt>
+          <nt id="s63330_515" cat="NX">
+            <edge label="HD" idref="s63330_29"/>
+          </nt>
+          <nt id="s63330_516" cat="NX">
+            <edge label="HD" idref="s63330_31"/>
+          </nt>
+          <nt id="s63330_517" cat="VXINF">
+            <edge label="HD" idref="s63330_32"/>
+          </nt>
+          <nt id="s63330_518" cat="VF">
+            <edge label="ON" idref="s63330_500"/>
+          </nt>
+          <nt id="s63330_519" cat="LK">
+            <edge label="HD" idref="s63330_501"/>
+          </nt>
+          <nt id="s63330_520" cat="PX">
+            <edge label="-" idref="s63330_5"/>
+            <edge label="HD" idref="s63330_503"/>
+          </nt>
+          <nt id="s63330_521" cat="PX">
+            <edge label="-" idref="s63330_7"/>
+            <edge label="HD" idref="s63330_504"/>
+          </nt>
+          <nt id="s63330_522" cat="NX">
+            <edge label="HD" idref="s63330_505"/>
+            <edge label="-" idref="s63330_506"/>
+          </nt>
+          <nt id="s63330_523" cat="PX">
+            <edge label="-" idref="s63330_19"/>
+            <edge label="HD" idref="s63330_509"/>
+          </nt>
+          <nt id="s63330_524" cat="VC">
+            <edge label="HD" idref="s63330_510"/>
+          </nt>
+          <nt id="s63330_525" cat="PX">
+            <edge label="-" idref="s63330_25"/>
+            <edge label="HD" idref="s63330_513"/>
+          </nt>
+          <nt id="s63330_526" cat="VC">
+            <edge label="HD" idref="s63330_514"/>
+          </nt>
+          <nt id="s63330_527" cat="PX">
+            <edge label="-" idref="s63330_30"/>
+            <edge label="HD" idref="s63330_516"/>
+          </nt>
+          <nt id="s63330_528" cat="VC">
+            <edge label="HD" idref="s63330_517"/>
+          </nt>
+          <nt id="s63330_529" cat="NX">
+            <edge label="HD" idref="s63330_502"/>
+            <edge label="-" idref="s63330_520"/>
+          </nt>
+          <nt id="s63330_530" cat="NX">
+            <edge label="-" idref="s63330_507"/>
+            <edge label="HD" idref="s63330_522"/>
+          </nt>
+          <nt id="s63330_531" cat="MF">
+            <edge label="ON" idref="s63330_508"/>
+            <edge label="V-MOD" idref="s63330_523"/>
+          </nt>
+          <nt id="s63330_532" cat="MF">
+            <edge label="ON" idref="s63330_511"/>
+            <edge label="MOD" idref="s63330_512"/>
+            <edge label="V-MOD" idref="s63330_525"/>
+          </nt>
+          <nt id="s63330_533" cat="MF">
+            <edge label="ON" idref="s63330_515"/>
+            <edge label="FOPP" idref="s63330_527"/>
+          </nt>
+          <nt id="s63330_534" cat="NX">
+            <edge label="-" idref="s63330_521"/>
+            <edge label="HD" idref="s63330_529"/>
+          </nt>
+          <nt id="s63330_535" cat="PX">
+            <edge label="-" idref="s63330_10"/>
+            <edge label="HD" idref="s63330_530"/>
+          </nt>
+          <nt id="s63330_536" cat="SIMPX">
+            <edge label="-" idref="s63330_524"/>
+            <edge label="-" idref="s63330_531"/>
+          </nt>
+          <nt id="s63330_537" cat="SIMPX">
+            <edge label="-" idref="s63330_526"/>
+            <edge label="-" idref="s63330_532"/>
+          </nt>
+          <nt id="s63330_538" cat="SIMPX">
+            <edge label="-" idref="s63330_528"/>
+            <edge label="-" idref="s63330_533"/>
+          </nt>
+          <nt id="s63330_539" cat="NX">
+            <edge label="HD" idref="s63330_534"/>
+            <edge label="-" idref="s63330_535"/>
+          </nt>
+          <nt id="s63330_540" cat="MF">
+            <edge label="OA" idref="s63330_539"/>
+          </nt>
+          <nt id="s63330_541" cat="SIMPX">
+            <edge label="-" idref="s63330_518"/>
+            <edge label="-" idref="s63330_519"/>
+            <edge label="-" idref="s63330_540"/>
+          </nt>
+          <nt id="s63330_VROOT" cat="VROOT">
+            <edge label="--" idref="s63330_16"/>
+            <edge label="--" idref="s63330_22"/>
+            <edge label="--" idref="s63330_28"/>
+            <edge label="--" idref="s63330_536"/>
+            <edge label="--" idref="s63330_537"/>
+            <edge label="--" idref="s63330_538"/>
+            <edge label="--" idref="s63330_541"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63331">
+      <graph root="s63331_VROOT">
+        <terminals>
+          <t id="s63331_1" word="Berlin" lemma="Berlin" pos="NE" morph="nsn"/>
+          <t id="s63331_2" word="(" lemma="(" pos="$(" morph="--"/>
+          <t id="s63331_3" word="taz" lemma="taz" pos="NE" morph="nsf"/>
+          <t id="s63331_4" word=")" lemma=")" pos="$(" morph="--"/>
+          <t id="s63331_5" word="-" lemma="-" pos="$(" morph="--"/>
+          <t id="s63331_6" word="Drei" lemma="drei" pos="CARD" morph="--"/>
+          <t id="s63331_7" word="Mitarbeiter" lemma="Mitarbeiter" pos="NN" morph="npm"/>
+          <t id="s63331_8" word="des" lemma="das" pos="ART" morph="gsn"/>
+          <t id="s63331_9" word="Berliner" lemma="Berliner" pos="ADJA" morph="***"/>
+          <t id="s63331_10" word="Landesamtes" lemma="Landesamt" pos="NN" morph="gsn"/>
+          <t id="s63331_11" word="für" lemma="für" pos="APPR" morph="a"/>
+          <t id="s63331_12" word="Verfassungsschutz" lemma="Verfassungsschutz" pos="NN" morph="asm"/>
+          <t id="s63331_13" word="(" lemma="(" pos="$(" morph="--"/>
+          <t id="s63331_14" word="VS" lemma="VS" pos="NN" morph="asm"/>
+          <t id="s63331_15" word=")" lemma=")" pos="$(" morph="--"/>
+          <t id="s63331_16" word="haben" lemma="haben%aux" pos="VAFIN" morph="3pis"/>
+          <t id="s63331_17" word="in" lemma="in" pos="APPR" morph="d"/>
+          <t id="s63331_18" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63331_19" word="letzten" lemma="letzt" pos="ADJA" morph="dsf"/>
+          <t id="s63331_20" word="Woche" lemma="Woche" pos="NN" morph="dsf"/>
+          <t id="s63331_21" word="unabhängig" lemma="unabhängig" pos="ADJD" morph="--"/>
+          <t id="s63331_22" word="voneinander" lemma="voneinander" pos="ADV" morph="--"/>
+          <t id="s63331_23" word="bestätigt" lemma="bestätigen" pos="VVPP" morph="--"/>
+          <t id="s63331_24" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63331_25" word="daß" lemma="daß" pos="KOUS" morph="--"/>
+          <t id="s63331_26" word="das" lemma="das" pos="ART" morph="nsn"/>
+          <t id="s63331_27" word="Amt" lemma="Amt" pos="NN" morph="nsn"/>
+          <t id="s63331_28" word="V-Leute" lemma="V-Leute" pos="NN" morph="ap*"/>
+          <t id="s63331_29" word="gegen" lemma="gegen" pos="APPR" morph="a"/>
+          <t id="s63331_30" word="diese" lemma="diese" pos="PDAT" morph="asf"/>
+          <t id="s63331_31" word="Zeitung" lemma="Zeitung" pos="NN" morph="asf"/>
+          <t id="s63331_32" word="eingesetzt" lemma="ein#setzen" pos="VVPP" morph="--"/>
+          <t id="s63331_33" word="hat" lemma="haben%aux" pos="VAFIN" morph="3sis"/>
+          <t id="s63331_34" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63331_500" cat="NX=GPE">
+            <edge label="HD" idref="s63331_1"/>
+          </nt>
+          <nt id="s63331_501" cat="NX=ORG">
+            <edge label="HD" idref="s63331_3"/>
+          </nt>
+          <nt id="s63331_502" cat="ADJX">
+            <edge label="HD" idref="s63331_6"/>
+          </nt>
+          <nt id="s63331_503" cat="ADJX">
+            <edge label="HD" idref="s63331_9"/>
+          </nt>
+          <nt id="s63331_504" cat="NX">
+            <edge label="HD" idref="s63331_12"/>
+          </nt>
+          <nt id="s63331_505" cat="NX">
+            <edge label="HD" idref="s63331_14"/>
+          </nt>
+          <nt id="s63331_506" cat="VXFIN">
+            <edge label="HD" idref="s63331_16"/>
+          </nt>
+          <nt id="s63331_507" cat="ADJX">
+            <edge label="HD" idref="s63331_19"/>
+          </nt>
+          <nt id="s63331_508" cat="ADJX">
+            <edge label="HD" idref="s63331_21"/>
+          </nt>
+          <nt id="s63331_509" cat="ADVX">
+            <edge label="HD" idref="s63331_22"/>
+          </nt>
+          <nt id="s63331_510" cat="VXINF">
+            <edge label="HD" idref="s63331_23"/>
+          </nt>
+          <nt id="s63331_511" cat="C">
+            <edge label="-" idref="s63331_25"/>
+          </nt>
+          <nt id="s63331_512" cat="NX">
+            <edge label="-" idref="s63331_26"/>
+            <edge label="HD" idref="s63331_27"/>
+          </nt>
+          <nt id="s63331_513" cat="NX">
+            <edge label="HD" idref="s63331_28"/>
+          </nt>
+          <nt id="s63331_514" cat="NX">
+            <edge label="-" idref="s63331_30"/>
+            <edge label="HD" idref="s63331_31"/>
+          </nt>
+          <nt id="s63331_515" cat="VXINF">
+            <edge label="HD" idref="s63331_32"/>
+          </nt>
+          <nt id="s63331_516" cat="VXFIN">
+            <edge label="HD" idref="s63331_33"/>
+          </nt>
+          <nt id="s63331_517" cat="NX">
+            <edge label="HD" idref="s63331_7"/>
+            <edge label="-" idref="s63331_502"/>
+          </nt>
+          <nt id="s63331_518" cat="NX">
+            <edge label="-" idref="s63331_8"/>
+            <edge label="HD" idref="s63331_10"/>
+            <edge label="-" idref="s63331_503"/>
+          </nt>
+          <nt id="s63331_519" cat="NX">
+            <edge label="APP" idref="s63331_504"/>
+            <edge label="APP" idref="s63331_505"/>
+          </nt>
+          <nt id="s63331_520" cat="LK">
+            <edge label="HD" idref="s63331_506"/>
+          </nt>
+          <nt id="s63331_521" cat="NX">
+            <edge label="-" idref="s63331_18"/>
+            <edge label="HD" idref="s63331_20"/>
+            <edge label="-" idref="s63331_507"/>
+          </nt>
+          <nt id="s63331_522" cat="ADJX">
+            <edge label="HD" idref="s63331_508"/>
+            <edge label="-" idref="s63331_509"/>
+          </nt>
+          <nt id="s63331_523" cat="VC">
+            <edge label="OV" idref="s63331_510"/>
+          </nt>
+          <nt id="s63331_524" cat="PX">
+            <edge label="-" idref="s63331_29"/>
+            <edge label="HD" idref="s63331_514"/>
+          </nt>
+          <nt id="s63331_525" cat="VC">
+            <edge label="OV" idref="s63331_515"/>
+            <edge label="HD" idref="s63331_516"/>
+          </nt>
+          <nt id="s63331_526" cat="PX">
+            <edge label="-" idref="s63331_11"/>
+            <edge label="HD" idref="s63331_519"/>
+          </nt>
+          <nt id="s63331_527" cat="PX">
+            <edge label="-" idref="s63331_17"/>
+            <edge label="HD" idref="s63331_521"/>
+          </nt>
+          <nt id="s63331_528" cat="MF">
+            <edge label="ON" idref="s63331_512"/>
+            <edge label="OA" idref="s63331_513"/>
+            <edge label="FOPP" idref="s63331_524"/>
+          </nt>
+          <nt id="s63331_529" cat="NX">
+            <edge label="HD" idref="s63331_518"/>
+            <edge label="-" idref="s63331_526"/>
+          </nt>
+          <nt id="s63331_530" cat="MF">
+            <edge label="V-MOD" idref="s63331_522"/>
+            <edge label="V-MOD" idref="s63331_527"/>
+          </nt>
+          <nt id="s63331_531" cat="SIMPX">
+            <edge label="-" idref="s63331_511"/>
+            <edge label="-" idref="s63331_525"/>
+            <edge label="-" idref="s63331_528"/>
+          </nt>
+          <nt id="s63331_532" cat="NX">
+            <edge label="HD" idref="s63331_517"/>
+            <edge label="-" idref="s63331_529"/>
+          </nt>
+          <nt id="s63331_533" cat="NF">
+            <edge label="OS" idref="s63331_531"/>
+          </nt>
+          <nt id="s63331_534" cat="VF">
+            <edge label="ON" idref="s63331_532"/>
+          </nt>
+          <nt id="s63331_535" cat="SIMPX">
+            <edge label="-" idref="s63331_520"/>
+            <edge label="-" idref="s63331_523"/>
+            <edge label="-" idref="s63331_530"/>
+            <edge label="-" idref="s63331_533"/>
+            <edge label="-" idref="s63331_534"/>
+          </nt>
+          <nt id="s63331_VROOT" cat="VROOT">
+            <edge label="--" idref="s63331_2"/>
+            <edge label="--" idref="s63331_4"/>
+            <edge label="--" idref="s63331_5"/>
+            <edge label="--" idref="s63331_13"/>
+            <edge label="--" idref="s63331_15"/>
+            <edge label="--" idref="s63331_24"/>
+            <edge label="--" idref="s63331_34"/>
+            <edge label="--" idref="s63331_500"/>
+            <edge label="--" idref="s63331_501"/>
+            <edge label="--" idref="s63331_535"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63332">
+      <graph root="s63332_VROOT">
+        <terminals>
+          <t id="s63332_1" word="Die" lemma="der" pos="ART" morph="npm"/>
+          <t id="s63332_2" word="Verfassungsschützer" lemma="Verfassungsschützer" pos="NN" morph="npm"/>
+          <t id="s63332_3" word="meldeten" lemma="melden" pos="VVFIN" morph="3pit"/>
+          <t id="s63332_4" word="sich" lemma="#refl" pos="PRF" morph="ap*3"/>
+          <t id="s63332_5" word="bei" lemma="bei" pos="APPR" morph="d"/>
+          <t id="s63332_6" word="dem" lemma="der" pos="ART" morph="dsm"/>
+          <t id="s63332_7" word="Fraktionsvorsitzenden" lemma="Fraktionsvorsitzender" pos="NN" morph="dsm"/>
+          <t id="s63332_8" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63332_9" word="Alternativen" lemma="alternativ" pos="ADJA" morph="gsf"/>
+          <t id="s63332_10" word="Liste" lemma="Liste" pos="NN" morph="gsf"/>
+          <t id="s63332_11" word="(" lemma="(" pos="$(" morph="--"/>
+          <t id="s63332_12" word="AL" lemma="AL" pos="NE" morph="gsf"/>
+          <t id="s63332_13" word=")" lemma=")" pos="$(" morph="--"/>
+          <t id="s63332_14" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63332_15" word="Wolfgang" lemma="Wolfgang" pos="NE" morph="dsm"/>
+          <t id="s63332_16" word="Wieland" lemma="Wieland" pos="NE" morph="dsm"/>
+          <t id="s63332_17" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63332_18" word="und" lemma="und" pos="KON" morph="--"/>
+          <t id="s63332_19" word="bestätigten" lemma="bestätigen" pos="VVFIN" morph="3pit"/>
+          <t id="s63332_20" word="seit" lemma="seit" pos="APPR" morph="d"/>
+          <t id="s63332_21" word="Wochen" lemma="Woche" pos="NN" morph="dpf"/>
+          <t id="s63332_22" word="kursierende" lemma="kursierend" pos="ADJA" morph="apf"/>
+          <t id="s63332_23" word="Informationen" lemma="Information" pos="NN" morph="apf"/>
+          <t id="s63332_24" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63332_25" word="die" lemma="der|die|das" pos="PRELS" morph="ap*"/>
+          <t id="s63332_26" word="Innensenator" lemma="Innensenator" pos="NN" morph="nsm"/>
+          <t id="s63332_27" word="Kewenig" lemma="Kewenig" pos="NE" morph="nsm"/>
+          <t id="s63332_28" word="bislang" lemma="bislang" pos="ADV" morph="--"/>
+          <t id="s63332_29" word="immer" lemma="immer" pos="ADV" morph="--"/>
+          <t id="s63332_30" word="bestritten" lemma="bestreiten" pos="VVPP" morph="--"/>
+          <t id="s63332_31" word="hat" lemma="haben%aux" pos="VAFIN" morph="3sis"/>
+          <t id="s63332_32" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63332_500" cat="NX">
+            <edge label="-" idref="s63332_1"/>
+            <edge label="HD" idref="s63332_2"/>
+          </nt>
+          <nt id="s63332_501" cat="VXFIN">
+            <edge label="HD" idref="s63332_3"/>
+          </nt>
+          <nt id="s63332_502" cat="NX">
+            <edge label="HD" idref="s63332_4"/>
+          </nt>
+          <nt id="s63332_503" cat="NX">
+            <edge label="-" idref="s63332_6"/>
+            <edge label="HD" idref="s63332_7"/>
+          </nt>
+          <nt id="s63332_504" cat="ADJX">
+            <edge label="HD" idref="s63332_9"/>
+          </nt>
+          <nt id="s63332_505" cat="NX=ORG">
+            <edge label="HD" idref="s63332_12"/>
+          </nt>
+          <nt id="s63332_506" cat="NX=PER">
+            <edge label="-" idref="s63332_15"/>
+            <edge label="-" idref="s63332_16"/>
+          </nt>
+          <nt id="s63332_507" cat="VXFIN">
+            <edge label="HD" idref="s63332_19"/>
+          </nt>
+          <nt id="s63332_508" cat="NX">
+            <edge label="HD" idref="s63332_21"/>
+          </nt>
+          <nt id="s63332_509" cat="NX">
+            <edge label="HD" idref="s63332_25"/>
+          </nt>
+          <nt id="s63332_510" cat="NX">
+            <edge label="HD" idref="s63332_26"/>
+          </nt>
+          <nt id="s63332_511" cat="NX=PER">
+            <edge label="HD" idref="s63332_27"/>
+          </nt>
+          <nt id="s63332_512" cat="ADVX">
+            <edge label="HD" idref="s63332_28"/>
+          </nt>
+          <nt id="s63332_513" cat="ADVX">
+            <edge label="HD" idref="s63332_29"/>
+          </nt>
+          <nt id="s63332_514" cat="VXINF">
+            <edge label="HD" idref="s63332_30"/>
+          </nt>
+          <nt id="s63332_515" cat="VXFIN">
+            <edge label="HD" idref="s63332_31"/>
+          </nt>
+          <nt id="s63332_516" cat="VF">
+            <edge label="ON" idref="s63332_500"/>
+          </nt>
+          <nt id="s63332_517" cat="LK">
+            <edge label="HD" idref="s63332_501"/>
+          </nt>
+          <nt id="s63332_518" cat="NX=ORG">
+            <edge label="-NE" idref="s63332_8"/>
+            <edge label="HD" idref="s63332_10"/>
+            <edge label="-" idref="s63332_504"/>
+          </nt>
+          <nt id="s63332_519" cat="LK">
+            <edge label="HD" idref="s63332_507"/>
+          </nt>
+          <nt id="s63332_520" cat="PX">
+            <edge label="-" idref="s63332_20"/>
+            <edge label="HD" idref="s63332_508"/>
+          </nt>
+          <nt id="s63332_521" cat="C">
+            <edge label="OA" idref="s63332_509"/>
+          </nt>
+          <nt id="s63332_522" cat="NX">
+            <edge label="APP" idref="s63332_510"/>
+            <edge label="APP" idref="s63332_511"/>
+          </nt>
+          <nt id="s63332_523" cat="VC">
+            <edge label="OV" idref="s63332_514"/>
+            <edge label="HD" idref="s63332_515"/>
+          </nt>
+          <nt id="s63332_524" cat="NX">
+            <edge label="APP" idref="s63332_505"/>
+            <edge label="APP" idref="s63332_518"/>
+          </nt>
+          <nt id="s63332_525" cat="ADJX">
+            <edge label="HD" idref="s63332_22"/>
+            <edge label="-" idref="s63332_520"/>
+          </nt>
+          <nt id="s63332_526" cat="MF">
+            <edge label="MOD" idref="s63332_512"/>
+            <edge label="MOD" idref="s63332_513"/>
+            <edge label="ON" idref="s63332_522"/>
+          </nt>
+          <nt id="s63332_527" cat="NX">
+            <edge label="HD" idref="s63332_503"/>
+            <edge label="-" idref="s63332_524"/>
+          </nt>
+          <nt id="s63332_528" cat="NX">
+            <edge label="HD" idref="s63332_23"/>
+            <edge label="-" idref="s63332_525"/>
+          </nt>
+          <nt id="s63332_529" cat="R-SIMPX">
+            <edge label="-" idref="s63332_521"/>
+            <edge label="-" idref="s63332_523"/>
+            <edge label="-" idref="s63332_526"/>
+          </nt>
+          <nt id="s63332_530" cat="NX">
+            <edge label="APP" idref="s63332_506"/>
+            <edge label="APP" idref="s63332_527"/>
+          </nt>
+          <nt id="s63332_531" cat="MF">
+            <edge label="OA" idref="s63332_528"/>
+          </nt>
+          <nt id="s63332_532" cat="NF">
+            <edge label="OA-MOD" idref="s63332_529"/>
+          </nt>
+          <nt id="s63332_533" cat="PX">
+            <edge label="-" idref="s63332_5"/>
+            <edge label="HD" idref="s63332_530"/>
+          </nt>
+          <nt id="s63332_534" cat="FKONJ">
+            <edge label="-" idref="s63332_519"/>
+            <edge label="-" idref="s63332_531"/>
+            <edge label="-" idref="s63332_532"/>
+          </nt>
+          <nt id="s63332_535" cat="MF">
+            <edge label="OA" idref="s63332_502"/>
+            <edge label="FOPP" idref="s63332_533"/>
+          </nt>
+          <nt id="s63332_536" cat="FKONJ">
+            <edge label="-" idref="s63332_517"/>
+            <edge label="-" idref="s63332_535"/>
+          </nt>
+          <nt id="s63332_537" cat="FKOORD">
+            <edge label="-" idref="s63332_18"/>
+            <edge label="KONJ" idref="s63332_534"/>
+            <edge label="KONJ" idref="s63332_536"/>
+          </nt>
+          <nt id="s63332_538" cat="SIMPX">
+            <edge label="-" idref="s63332_516"/>
+            <edge label="-" idref="s63332_537"/>
+          </nt>
+          <nt id="s63332_VROOT" cat="VROOT">
+            <edge label="--" idref="s63332_11"/>
+            <edge label="--" idref="s63332_13"/>
+            <edge label="--" idref="s63332_14"/>
+            <edge label="--" idref="s63332_17"/>
+            <edge label="--" idref="s63332_24"/>
+            <edge label="--" idref="s63332_32"/>
+            <edge label="--" idref="s63332_538"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63333">
+      <graph root="s63333_VROOT">
+        <terminals>
+          <t id="s63333_1" word="Danach" lemma="danach" pos="PROP" morph="--"/>
+          <t id="s63333_2" word="sei" lemma="sein%aux" pos="VAFIN" morph="3sks"/>
+          <t id="s63333_3" word="die" lemma="die" pos="ART" morph="nsf"/>
+          <t id="s63333_4" word="taz" lemma="taz" pos="NE" morph="nsf"/>
+          <t id="s63333_5" word="bereits" lemma="bereits" pos="ADV" morph="--"/>
+          <t id="s63333_6" word="bei" lemma="bei" pos="APPR" morph="d"/>
+          <t id="s63333_7" word="ihrer" lemma="ihre" pos="PPOSAT" morph="dsf"/>
+          <t id="s63333_8" word="Gründung" lemma="Gründung" pos="NN" morph="dsf"/>
+          <t id="s63333_9" word="1979" lemma="1979" pos="CARD" morph="--"/>
+          <t id="s63333_10" word="vom" lemma="von" pos="APPRART" morph="dsm"/>
+          <t id="s63333_11" word="damaligen" lemma="damalig" pos="ADJA" morph="dsm"/>
+          <t id="s63333_12" word="SPD-Innensenator" lemma="SPD-Innensenator" pos="NN" morph="dsm"/>
+          <t id="s63333_13" word="Peter" lemma="Peter" pos="NE" morph="dsm"/>
+          <t id="s63333_14" word="Ulrich" lemma="Ulrich" pos="NE" morph="dsm"/>
+          <t id="s63333_15" word="zum" lemma="zu" pos="APPRART" morph="dsn"/>
+          <t id="s63333_16" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63333_17" word="Beobachtungsobjekt" lemma="Beobachtungsobjekt" pos="NN" morph="dsn"/>
+          <t id="s63333_18" word="des" lemma="der" pos="ART" morph="gsm"/>
+          <t id="s63333_19" word="Verfassungsschutzes" lemma="Verfassungsschutz" pos="NN" morph="gsm"/>
+          <t id="s63333_20" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63333_21" word="erklärt" lemma="erklären" pos="VVPP" morph="--"/>
+          <t id="s63333_22" word="worden" lemma="werden%passiv" pos="VAPP" morph="--"/>
+          <t id="s63333_23" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63333_24" word="mit" lemma="mit" pos="APPR" morph="d"/>
+          <t id="s63333_25" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63333_26" word="Folge" lemma="Folge" pos="NN" morph="dsf"/>
+          <t id="s63333_27" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63333_28" word="daß" lemma="daß" pos="KOUS" morph="--"/>
+          <t id="s63333_29" word="sämtliche" lemma="sämtlich" pos="PIDAT" morph="npm"/>
+          <t id="s63333_30" word="für" lemma="für" pos="APPR" morph="a"/>
+          <t id="s63333_31" word="die" lemma="die" pos="ART" morph="asf"/>
+          <t id="s63333_32" word="taz" lemma="taz" pos="NE" morph="asf"/>
+          <t id="s63333_33" word="arbeitenden" lemma="arbeitend" pos="ADJA" morph="npm"/>
+          <t id="s63333_34" word="Journalisten" lemma="Journalist" pos="NN" morph="npm"/>
+          <t id="s63333_35" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63333_36" word="zum" lemma="zu" pos="APPRART" morph="dsm"/>
+          <t id="s63333_37" word="Teil" lemma="Teil" pos="NN" morph="dsm"/>
+          <t id="s63333_38" word="noch" lemma="noch" pos="ADV" morph="--"/>
+          <t id="s63333_39" word="bevor" lemma="bevor" pos="KOUS" morph="--"/>
+          <t id="s63333_40" word="sie" lemma="sie" pos="PPER" morph="np*3"/>
+          <t id="s63333_41" word="ihren" lemma="ihr" pos="PPOSAT" morph="asm"/>
+          <t id="s63333_42" word="ersten" lemma="erst" pos="ADJA" morph="asm"/>
+          <t id="s63333_43" word="Artikel" lemma="Artikel" pos="NN" morph="asm"/>
+          <t id="s63333_44" word="geschrieben" lemma="schreiben" pos="VVPP" morph="--"/>
+          <t id="s63333_45" word="hätten" lemma="haben%aux" pos="VAFIN" morph="3pkt"/>
+          <t id="s63333_46" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63333_47" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63333_48" word="Geheimdienstcomputer" lemma="Geheimdienstcomputer" pos="NN" morph="dsm"/>
+          <t id="s63333_49" word="NADIS" lemma="NADIS" pos="NE" morph="dsm"/>
+          <t id="s63333_50" word="gespeichert" lemma="speichern" pos="VVPP" morph="--"/>
+          <t id="s63333_51" word="worden" lemma="werden%passiv" pos="VAFIN" morph="3pit"/>
+          <t id="s63333_52" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63333_500" cat="PX">
+            <edge label="HD" idref="s63333_1"/>
+          </nt>
+          <nt id="s63333_501" cat="VXFIN">
+            <edge label="HD" idref="s63333_2"/>
+          </nt>
+          <nt id="s63333_502" cat="NX=ORG">
+            <edge label="-NE" idref="s63333_3"/>
+            <edge label="HD" idref="s63333_4"/>
+          </nt>
+          <nt id="s63333_503" cat="ADVX">
+            <edge label="HD" idref="s63333_5"/>
+          </nt>
+          <nt id="s63333_504" cat="NX">
+            <edge label="-" idref="s63333_7"/>
+            <edge label="HD" idref="s63333_8"/>
+          </nt>
+          <nt id="s63333_505" cat="NX">
+            <edge label="HD" idref="s63333_9"/>
+          </nt>
+          <nt id="s63333_506" cat="ADJX">
+            <edge label="HD" idref="s63333_11"/>
+          </nt>
+          <nt id="s63333_507" cat="NX=PER">
+            <edge label="-" idref="s63333_13"/>
+            <edge label="-" idref="s63333_14"/>
+          </nt>
+          <nt id="s63333_508" cat="NX">
+            <edge label="HD" idref="s63333_17"/>
+          </nt>
+          <nt id="s63333_509" cat="NX">
+            <edge label="-" idref="s63333_18"/>
+            <edge label="HD" idref="s63333_19"/>
+          </nt>
+          <nt id="s63333_510" cat="VXINF">
+            <edge label="HD" idref="s63333_21"/>
+          </nt>
+          <nt id="s63333_511" cat="VXINF">
+            <edge label="HD" idref="s63333_22"/>
+          </nt>
+          <nt id="s63333_512" cat="NX">
+            <edge label="-" idref="s63333_25"/>
+            <edge label="HD" idref="s63333_26"/>
+          </nt>
+          <nt id="s63333_513" cat="C">
+            <edge label="-" idref="s63333_28"/>
+          </nt>
+          <nt id="s63333_514" cat="NX=ORG">
+            <edge label="-NE" idref="s63333_31"/>
+            <edge label="HD" idref="s63333_32"/>
+          </nt>
+          <nt id="s63333_515" cat="NX">
+            <edge label="HD" idref="s63333_37"/>
+          </nt>
+          <nt id="s63333_516" cat="C">
+            <edge label="-" idref="s63333_39"/>
+          </nt>
+          <nt id="s63333_517" cat="NX">
+            <edge label="HD" idref="s63333_40"/>
+          </nt>
+          <nt id="s63333_518" cat="ADJX">
+            <edge label="HD" idref="s63333_42"/>
+          </nt>
+          <nt id="s63333_519" cat="VXINF">
+            <edge label="HD" idref="s63333_44"/>
+          </nt>
+          <nt id="s63333_520" cat="VXFIN">
+            <edge label="HD" idref="s63333_45"/>
+          </nt>
+          <nt id="s63333_521" cat="NX">
+            <edge label="HD" idref="s63333_48"/>
+          </nt>
+          <nt id="s63333_522" cat="NX=OTH">
+            <edge label="HD" idref="s63333_49"/>
+          </nt>
+          <nt id="s63333_523" cat="VXINF">
+            <edge label="HD" idref="s63333_50"/>
+          </nt>
+          <nt id="s63333_524" cat="VXFIN">
+            <edge label="HD" idref="s63333_51"/>
+          </nt>
+          <nt id="s63333_525" cat="VF">
+            <edge label="MOD" idref="s63333_500"/>
+          </nt>
+          <nt id="s63333_526" cat="LK">
+            <edge label="HD" idref="s63333_501"/>
+          </nt>
+          <nt id="s63333_527" cat="NX">
+            <edge label="HD" idref="s63333_504"/>
+            <edge label="-" idref="s63333_505"/>
+          </nt>
+          <nt id="s63333_528" cat="NX">
+            <edge label="HD" idref="s63333_12"/>
+            <edge label="-" idref="s63333_506"/>
+          </nt>
+          <nt id="s63333_529" cat="NX">
+            <edge label="HD" idref="s63333_508"/>
+            <edge label="-" idref="s63333_509"/>
+          </nt>
+          <nt id="s63333_530" cat="VC">
+            <edge label="OV" idref="s63333_510"/>
+            <edge label="HD" idref="s63333_511"/>
+          </nt>
+          <nt id="s63333_531" cat="PX">
+            <edge label="-" idref="s63333_30"/>
+            <edge label="HD" idref="s63333_514"/>
+          </nt>
+          <nt id="s63333_532" cat="PX">
+            <edge label="-" idref="s63333_36"/>
+            <edge label="HD" idref="s63333_515"/>
+          </nt>
+          <nt id="s63333_533" cat="NX">
+            <edge label="-" idref="s63333_41"/>
+            <edge label="HD" idref="s63333_43"/>
+            <edge label="-" idref="s63333_518"/>
+          </nt>
+          <nt id="s63333_534" cat="VC">
+            <edge label="OV" idref="s63333_519"/>
+            <edge label="HD" idref="s63333_520"/>
+          </nt>
+          <nt id="s63333_535" cat="NX">
+            <edge label="APP" idref="s63333_521"/>
+            <edge label="APP" idref="s63333_522"/>
+          </nt>
+          <nt id="s63333_536" cat="VC">
+            <edge label="OV" idref="s63333_523"/>
+            <edge label="HD" idref="s63333_524"/>
+          </nt>
+          <nt id="s63333_537" cat="PX">
+            <edge label="-" idref="s63333_6"/>
+            <edge label="HD" idref="s63333_527"/>
+          </nt>
+          <nt id="s63333_538" cat="NX">
+            <edge label="APP" idref="s63333_507"/>
+            <edge label="APP" idref="s63333_528"/>
+          </nt>
+          <nt id="s63333_539" cat="PX">
+            <edge label="-" idref="s63333_15"/>
+            <edge label="HD" idref="s63333_529"/>
+          </nt>
+          <nt id="s63333_540" cat="ADJX">
+            <edge label="HD" idref="s63333_33"/>
+            <edge label="-" idref="s63333_531"/>
+          </nt>
+          <nt id="s63333_541" cat="ADVX">
+            <edge label="HD" idref="s63333_38"/>
+            <edge label="-" idref="s63333_532"/>
+          </nt>
+          <nt id="s63333_542" cat="MF">
+            <edge label="ON" idref="s63333_517"/>
+            <edge label="OA" idref="s63333_533"/>
+          </nt>
+          <nt id="s63333_543" cat="PX">
+            <edge label="-" idref="s63333_47"/>
+            <edge label="HD" idref="s63333_535"/>
+          </nt>
+          <nt id="s63333_544" cat="PX">
+            <edge label="-" idref="s63333_10"/>
+            <edge label="HD" idref="s63333_538"/>
+          </nt>
+          <nt id="s63333_545" cat="NX">
+            <edge label="-" idref="s63333_29"/>
+            <edge label="HD" idref="s63333_34"/>
+            <edge label="-" idref="s63333_540"/>
+          </nt>
+          <nt id="s63333_546" cat="SIMPX">
+            <edge label="-" idref="s63333_516"/>
+            <edge label="-" idref="s63333_534"/>
+            <edge label="-" idref="s63333_542"/>
+          </nt>
+          <nt id="s63333_547" cat="MF">
+            <edge label="ON" idref="s63333_502"/>
+            <edge label="MOD" idref="s63333_503"/>
+            <edge label="V-MOD" idref="s63333_537"/>
+            <edge label="PRED" idref="s63333_539"/>
+            <edge label="FOPP" idref="s63333_544"/>
+          </nt>
+          <nt id="s63333_548" cat="ADVX">
+            <edge label="HD" idref="s63333_541"/>
+            <edge label="-" idref="s63333_546"/>
+          </nt>
+          <nt id="s63333_549" cat="MF">
+            <edge label="V-MOD" idref="s63333_543"/>
+            <edge label="ON" idref="s63333_545"/>
+            <edge label="MOD" idref="s63333_548"/>
+          </nt>
+          <nt id="s63333_550" cat="SIMPX">
+            <edge label="-" idref="s63333_513"/>
+            <edge label="-" idref="s63333_536"/>
+            <edge label="-" idref="s63333_549"/>
+          </nt>
+          <nt id="s63333_551" cat="NX">
+            <edge label="HD" idref="s63333_512"/>
+            <edge label="-" idref="s63333_550"/>
+          </nt>
+          <nt id="s63333_552" cat="PX">
+            <edge label="-" idref="s63333_24"/>
+            <edge label="HD" idref="s63333_551"/>
+          </nt>
+          <nt id="s63333_553" cat="NF">
+            <edge label="MOD" idref="s63333_552"/>
+          </nt>
+          <nt id="s63333_554" cat="SIMPX">
+            <edge label="-" idref="s63333_525"/>
+            <edge label="-" idref="s63333_526"/>
+            <edge label="-" idref="s63333_530"/>
+            <edge label="-" idref="s63333_547"/>
+            <edge label="-" idref="s63333_553"/>
+          </nt>
+          <nt id="s63333_VROOT" cat="VROOT">
+            <edge label="--" idref="s63333_16"/>
+            <edge label="--" idref="s63333_20"/>
+            <edge label="--" idref="s63333_23"/>
+            <edge label="--" idref="s63333_27"/>
+            <edge label="--" idref="s63333_35"/>
+            <edge label="--" idref="s63333_46"/>
+            <edge label="--" idref="s63333_52"/>
+            <edge label="--" idref="s63333_554"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63334">
+      <graph root="s63334_VROOT">
+        <terminals>
+          <t id="s63334_1" word="Der" lemma="der" pos="ART" morph="nsm">
+ </t>
+          <t id="s63334_2" word="VS" lemma="VS" pos="NN" morph="nsm">
+ </t>
+          <t id="s63334_3" word="hätte" lemma="haben%aux" pos="VAFIN" morph="3skt">
+ </t>
+          <t id="s63334_4" word="eine" lemma="eine" pos="ART" morph="asf">
+ </t>
+          <t id="s63334_5" word="Sachkartei" lemma="Sachkartei" pos="NN" morph="asf">
+ </t>
+          <t id="s63334_6" word="und" lemma="und" pos="KON" morph="--">
+ </t>
+          <t id="s63334_7" word="Personalakten" lemma="Personalakte" pos="NN" morph="apf">
+ </t>
+          <t id="s63334_8" word="angelegt" lemma="an#legen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63334_9" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63334_10" word="in" lemma="in" pos="APPR" morph="d">
+ </t>
+          <t id="s63334_11" word="der" lemma="die" pos="PRELS" morph="dsf">
+ </t>
+          <t id="s63334_12" word="sämtliche" lemma="sämtlich" pos="PIDAT" morph="npm">
+ </t>
+          <t id="s63334_13" word="Artikel" lemma="Artikel" pos="NN" morph="npm">
+ </t>
+          <t id="s63334_14" word="gespeichert" lemma="speichern" pos="VVPP" morph="--">
+ </t>
+          <t id="s63334_15" word="worden" lemma="werden%passiv" pos="VAPP" morph="--">
+ </t>
+          <t id="s63334_16" word="seien" lemma="sein%aux" pos="VAFIN" morph="3pks">
+ </t>
+          <t id="s63334_17" word="." lemma="." pos="$." morph="--">
+ </t>
+        </terminals>
+        <nonterminals>
+          <nt id="s63334_500" cat="NX">
+            <edge label="-" idref="s63334_1"/>
+            <edge label="HD" idref="s63334_2"/>
+          </nt>
+          <nt id="s63334_501" cat="VXFIN">
+            <edge label="HD" idref="s63334_3"/>
+          </nt>
+          <nt id="s63334_502" cat="NX">
+            <edge label="-" idref="s63334_4"/>
+            <edge label="HD" idref="s63334_5"/>
+            <secedge label="refint" idref="s63334_519"/>
+          </nt>
+          <nt id="s63334_503" cat="NX">
+            <edge label="HD" idref="s63334_7"/>
+          </nt>
+          <nt id="s63334_504" cat="VXINF">
+            <edge label="HD" idref="s63334_8"/>
+          </nt>
+          <nt id="s63334_505" cat="NX">
+            <edge label="HD" idref="s63334_11"/>
+          </nt>
+          <nt id="s63334_506" cat="NX">
+            <edge label="-" idref="s63334_12"/>
+            <edge label="HD" idref="s63334_13"/>
+          </nt>
+          <nt id="s63334_507" cat="VXINF">
+            <edge label="HD" idref="s63334_14"/>
+          </nt>
+          <nt id="s63334_508" cat="VXINF">
+            <edge label="HD" idref="s63334_15"/>
+            <secedge label="refvc" idref="s63334_507"/>
+          </nt>
+          <nt id="s63334_509" cat="VXFIN">
+            <edge label="HD" idref="s63334_16"/>
+          </nt>
+          <nt id="s63334_510" cat="VF">
+            <edge label="ON" idref="s63334_500"/>
+          </nt>
+          <nt id="s63334_511" cat="LK">
+            <edge label="HD" idref="s63334_501"/>
+          </nt>
+          <nt id="s63334_512" cat="NX">
+            <edge label="-" idref="s63334_6"/>
+            <edge label="KONJ" idref="s63334_502"/>
+            <edge label="KONJ" idref="s63334_503"/>
+          </nt>
+          <nt id="s63334_513" cat="VC">
+            <edge label="OV" idref="s63334_504"/>
+          </nt>
+          <nt id="s63334_514" cat="PX">
+            <edge label="-" idref="s63334_10"/>
+            <edge label="HD" idref="s63334_505"/>
+          </nt>
+          <nt id="s63334_515" cat="MF">
+            <edge label="ON" idref="s63334_506"/>
+          </nt>
+          <nt id="s63334_516" cat="VC">
+            <edge label="OV" idref="s63334_507"/>
+            <edge label="OV" idref="s63334_508"/>
+            <edge label="HD" idref="s63334_509"/>
+          </nt>
+          <nt id="s63334_517" cat="MF">
+            <edge label="OA" idref="s63334_512"/>
+          </nt>
+          <nt id="s63334_518" cat="C">
+            <edge label="V-MOD" idref="s63334_514"/>
+          </nt>
+          <nt id="s63334_519" cat="R-SIMPX">
+            <edge label="-" idref="s63334_515"/>
+            <edge label="-" idref="s63334_516"/>
+            <edge label="-" idref="s63334_518"/>
+          </nt>
+          <nt id="s63334_520" cat="NF">
+            <edge label="MOD" idref="s63334_519"/>
+          </nt>
+          <nt id="s63334_521" cat="SIMPX">
+            <edge label="-" idref="s63334_510"/>
+            <edge label="-" idref="s63334_511"/>
+            <edge label="-" idref="s63334_513"/>
+            <edge label="-" idref="s63334_517"/>
+            <edge label="-" idref="s63334_520"/>
+          </nt>
+          <nt id="s63334_VROOT" cat="VROOT">
+            <edge label="--" idref="s63334_9"/>
+            <edge label="--" idref="s63334_17"/>
+            <edge label="--" idref="s63334_521"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63335">
+      <graph root="s63335_VROOT">
+        <terminals>
+          <t id="s63335_1" word="Übereinstimmend" lemma="übereinstimmend" pos="ADJD" morph="--"/>
+          <t id="s63335_2" word="wußten" lemma="wissen" pos="VVFIN" morph="3pit"/>
+          <t id="s63335_3" word="die" lemma="der" pos="ART" morph="npm"/>
+          <t id="s63335_4" word="anonymen" lemma="anonym" pos="ADJA" morph="npm"/>
+          <t id="s63335_5" word="Informanten" lemma="Informant" pos="NN" morph="npm"/>
+          <t id="s63335_6" word="Wielands" lemma="Wieland" pos="NE" morph="gsm"/>
+          <t id="s63335_7" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63335_8" word="von" lemma="von" pos="APPR" morph="d"/>
+          <t id="s63335_9" word="denen" lemma="der|die|das" pos="PRELS" morph="dp*"/>
+          <t id="s63335_10" word="sich" lemma="#refl" pos="PRF" morph="ap*3"/>
+          <t id="s63335_11" word="zwei" lemma="zwei" pos="CARD" morph="--"/>
+          <t id="s63335_12" word="telefonisch" lemma="telefonisch" pos="ADJD" morph="--"/>
+          <t id="s63335_13" word="und" lemma="und" pos="KON" morph="--"/>
+          <t id="s63335_14" word="einer" lemma="einer" pos="PIS" morph="nsm"/>
+          <t id="s63335_15" word="schriftlich" lemma="schriftlich" pos="ADJD" morph="--"/>
+          <t id="s63335_16" word="bei" lemma="bei" pos="APPR" morph="d"/>
+          <t id="s63335_17" word="ihm" lemma="er" pos="PPER" morph="dsm3"/>
+          <t id="s63335_18" word="gemeldet" lemma="melden" pos="VVPP" morph="--"/>
+          <t id="s63335_19" word="haben" lemma="haben%aux" pos="VAFIN" morph="3pis"/>
+          <t id="s63335_20" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63335_21" word="auch" lemma="auch" pos="ADV" morph="--"/>
+          <t id="s63335_22" word="zu" lemma="zu" pos="PTKZU" morph="--"/>
+          <t id="s63335_23" word="berichten" lemma="berichten" pos="VVINF" morph="--"/>
+          <t id="s63335_24" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63335_25" word="daß" lemma="daß" pos="KOUS" morph="--"/>
+          <t id="s63335_26" word="der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63335_27" word="Verfassungsschutz" lemma="Verfassungsschutz" pos="NN" morph="nsm"/>
+          <t id="s63335_28" word="sich" lemma="#refl" pos="PRF" morph="as*3"/>
+          <t id="s63335_29" word="nicht" lemma="nicht" pos="PTKNEG" morph="--"/>
+          <t id="s63335_30" word="mit" lemma="mit" pos="APPR" morph="d"/>
+          <t id="s63335_31" word="Archivarbeit" lemma="Archivarbeit" pos="NN" morph="dsf"/>
+          <t id="s63335_32" word="begnügte" lemma="begnügen" pos="VVFIN" morph="3sit"/>
+          <t id="s63335_33" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63335_34" word="sondern" lemma="sondern" pos="KON" morph="--"/>
+          <t id="s63335_35" word="bereits" lemma="bereits" pos="ADV" morph="--"/>
+          <t id="s63335_36" word="in" lemma="in" pos="APPR" morph="d"/>
+          <t id="s63335_37" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63335_38" word="Anfangsphase" lemma="Anfangsphase" pos="NN" morph="dsf"/>
+          <t id="s63335_39" word="des" lemma="das" pos="ART" morph="gsn"/>
+          <t id="s63335_40" word="Projekts" lemma="Projekt" pos="NN" morph="gsn"/>
+          <t id="s63335_41" word="tageszeitung" lemma="Tageszeitung" pos="NN" morph="gsf"/>
+          <t id="s63335_42" word="einen" lemma="ein" pos="ART" morph="asm"/>
+          <t id="s63335_43" word="ersten" lemma="erst" pos="ADJA" morph="asm"/>
+          <t id="s63335_44" word="V-Mann" lemma="V-Mann" pos="NN" morph="asm"/>
+          <t id="s63335_45" word="eingeschleust" lemma="ein#schleusen" pos="VVPP" morph="--"/>
+          <t id="s63335_46" word="hatte" lemma="haben%aux" pos="VAFIN" morph="3sit"/>
+          <t id="s63335_47" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63335_500" cat="ADJX">
+            <edge label="HD" idref="s63335_1"/>
+          </nt>
+          <nt id="s63335_501" cat="VXFIN">
+            <edge label="HD" idref="s63335_2"/>
+          </nt>
+          <nt id="s63335_502" cat="ADJX">
+            <edge label="HD" idref="s63335_4"/>
+          </nt>
+          <nt id="s63335_503" cat="NX=PER">
+            <edge label="HD" idref="s63335_6"/>
+          </nt>
+          <nt id="s63335_504" cat="NX">
+            <edge label="HD" idref="s63335_9"/>
+          </nt>
+          <nt id="s63335_505" cat="NX">
+            <edge label="HD" idref="s63335_10"/>
+          </nt>
+          <nt id="s63335_506" cat="ADJX">
+            <edge label="HD" idref="s63335_11"/>
+          </nt>
+          <nt id="s63335_507" cat="ADJX">
+            <edge label="HD" idref="s63335_12"/>
+          </nt>
+          <nt id="s63335_508" cat="NX">
+            <edge label="HD" idref="s63335_14"/>
+          </nt>
+          <nt id="s63335_509" cat="ADJX">
+            <edge label="HD" idref="s63335_15"/>
+          </nt>
+          <nt id="s63335_510" cat="NX">
+            <edge label="HD" idref="s63335_17"/>
+          </nt>
+          <nt id="s63335_511" cat="VXINF">
+            <edge label="HD" idref="s63335_18"/>
+          </nt>
+          <nt id="s63335_512" cat="VXFIN">
+            <edge label="HD" idref="s63335_19"/>
+          </nt>
+          <nt id="s63335_513" cat="ADVX">
+            <edge label="HD" idref="s63335_21"/>
+          </nt>
+          <nt id="s63335_514" cat="VXINF">
+            <edge label="HD" idref="s63335_22"/>
+            <edge label="-" idref="s63335_23"/>
+          </nt>
+          <nt id="s63335_515" cat="C">
+            <edge label="-" idref="s63335_25"/>
+          </nt>
+          <nt id="s63335_516" cat="NX">
+            <edge label="-" idref="s63335_26"/>
+            <edge label="HD" idref="s63335_27"/>
+          </nt>
+          <nt id="s63335_517" cat="NX">
+            <edge label="HD" idref="s63335_28"/>
+          </nt>
+          <nt id="s63335_518" cat="ADVX">
+            <edge label="HD" idref="s63335_29"/>
+          </nt>
+          <nt id="s63335_519" cat="NX">
+            <edge label="HD" idref="s63335_31"/>
+          </nt>
+          <nt id="s63335_520" cat="VXFIN">
+            <edge label="HD" idref="s63335_32"/>
+          </nt>
+          <nt id="s63335_521" cat="ADVX">
+            <edge label="HD" idref="s63335_35"/>
+          </nt>
+          <nt id="s63335_522" cat="NX">
+            <edge label="-" idref="s63335_37"/>
+            <edge label="HD" idref="s63335_38"/>
+          </nt>
+          <nt id="s63335_523" cat="NX">
+            <edge label="-" idref="s63335_39"/>
+            <edge label="HD" idref="s63335_40"/>
+          </nt>
+          <nt id="s63335_524" cat="NX=ORG">
+            <edge label="HD" idref="s63335_41"/>
+          </nt>
+          <nt id="s63335_525" cat="ADJX">
+            <edge label="HD" idref="s63335_43"/>
+          </nt>
+          <nt id="s63335_526" cat="VXINF">
+            <edge label="HD" idref="s63335_45"/>
+          </nt>
+          <nt id="s63335_527" cat="VXFIN">
+            <edge label="HD" idref="s63335_46"/>
+          </nt>
+          <nt id="s63335_528" cat="VF">
+            <edge label="MOD" idref="s63335_500"/>
+          </nt>
+          <nt id="s63335_529" cat="LK">
+            <edge label="HD" idref="s63335_501"/>
+          </nt>
+          <nt id="s63335_530" cat="NX">
+            <edge label="-" idref="s63335_3"/>
+            <edge label="HD" idref="s63335_5"/>
+            <edge label="-" idref="s63335_502"/>
+          </nt>
+          <nt id="s63335_531" cat="PX">
+            <edge label="-" idref="s63335_8"/>
+            <edge label="HD" idref="s63335_504"/>
+          </nt>
+          <nt id="s63335_532" cat="NX">
+            <edge label="-" idref="s63335_506"/>
+          </nt>
+          <nt id="s63335_533" cat="PX">
+            <edge label="-" idref="s63335_16"/>
+            <edge label="HD" idref="s63335_510"/>
+          </nt>
+          <nt id="s63335_534" cat="VC">
+            <edge label="OV" idref="s63335_511"/>
+            <edge label="HD" idref="s63335_512"/>
+          </nt>
+          <nt id="s63335_535" cat="VC">
+            <edge label="OV" idref="s63335_514"/>
+          </nt>
+          <nt id="s63335_536" cat="PX">
+            <edge label="-" idref="s63335_30"/>
+            <edge label="HD" idref="s63335_519"/>
+          </nt>
+          <nt id="s63335_537" cat="VC">
+            <edge label="HD" idref="s63335_520"/>
+          </nt>
+          <nt id="s63335_538" cat="NX">
+            <edge label="APP" idref="s63335_523"/>
+            <edge label="APP" idref="s63335_524"/>
+          </nt>
+          <nt id="s63335_539" cat="NX">
+            <edge label="-" idref="s63335_42"/>
+            <edge label="HD" idref="s63335_44"/>
+            <edge label="-" idref="s63335_525"/>
+          </nt>
+          <nt id="s63335_540" cat="VC">
+            <edge label="OV" idref="s63335_526"/>
+            <edge label="HD" idref="s63335_527"/>
+          </nt>
+          <nt id="s63335_541" cat="NX">
+            <edge label="-" idref="s63335_503"/>
+            <edge label="HD" idref="s63335_530"/>
+          </nt>
+          <nt id="s63335_542" cat="C">
+            <edge label="MOD" idref="s63335_531"/>
+          </nt>
+          <nt id="s63335_543" cat="MF">
+            <edge label="OA" idref="s63335_505"/>
+            <edge label="V-MOD" idref="s63335_507"/>
+            <edge label="ON" idref="s63335_532"/>
+          </nt>
+          <nt id="s63335_544" cat="MF">
+            <edge label="ON" idref="s63335_508"/>
+            <edge label="V-MOD" idref="s63335_509"/>
+            <edge label="FOPP" idref="s63335_533"/>
+          </nt>
+          <nt id="s63335_545" cat="MF">
+            <edge label="ON" idref="s63335_516"/>
+            <edge label="OA" idref="s63335_517"/>
+            <edge label="MOD" idref="s63335_518"/>
+            <edge label="OPP" idref="s63335_536"/>
+          </nt>
+          <nt id="s63335_546" cat="NX">
+            <edge label="HD" idref="s63335_522"/>
+            <edge label="-" idref="s63335_538"/>
+          </nt>
+          <nt id="s63335_547" cat="FKOORD">
+            <edge label="-" idref="s63335_13"/>
+            <edge label="KONJ" idref="s63335_543"/>
+            <edge label="KONJ" idref="s63335_544"/>
+          </nt>
+          <nt id="s63335_548" cat="FKONJ">
+            <edge label="-" idref="s63335_537"/>
+            <edge label="-" idref="s63335_545"/>
+          </nt>
+          <nt id="s63335_549" cat="PX">
+            <edge label="-" idref="s63335_36"/>
+            <edge label="HD" idref="s63335_546"/>
+          </nt>
+          <nt id="s63335_550" cat="R-SIMPX">
+            <edge label="-" idref="s63335_534"/>
+            <edge label="-" idref="s63335_542"/>
+            <edge label="-" idref="s63335_547"/>
+          </nt>
+          <nt id="s63335_551" cat="MF">
+            <edge label="MOD" idref="s63335_521"/>
+            <edge label="OA" idref="s63335_539"/>
+            <edge label="V-MOD" idref="s63335_549"/>
+          </nt>
+          <nt id="s63335_552" cat="NX">
+            <edge label="HD" idref="s63335_541"/>
+            <edge label="-" idref="s63335_550"/>
+          </nt>
+          <nt id="s63335_553" cat="FKONJ">
+            <edge label="-" idref="s63335_540"/>
+            <edge label="-" idref="s63335_551"/>
+          </nt>
+          <nt id="s63335_554" cat="MF">
+            <edge label="MOD" idref="s63335_513"/>
+            <edge label="ON" idref="s63335_552"/>
+          </nt>
+          <nt id="s63335_555" cat="FKOORD">
+            <edge label="-" idref="s63335_34"/>
+            <edge label="KONJ" idref="s63335_548"/>
+            <edge label="KONJ" idref="s63335_553"/>
+          </nt>
+          <nt id="s63335_556" cat="SIMPX">
+            <edge label="-" idref="s63335_515"/>
+            <edge label="-" idref="s63335_555"/>
+          </nt>
+          <nt id="s63335_557" cat="NF">
+            <edge label="OS" idref="s63335_556"/>
+          </nt>
+          <nt id="s63335_558" cat="SIMPX">
+            <edge label="-" idref="s63335_528"/>
+            <edge label="-" idref="s63335_529"/>
+            <edge label="-" idref="s63335_535"/>
+            <edge label="-" idref="s63335_554"/>
+            <edge label="-" idref="s63335_557"/>
+          </nt>
+          <nt id="s63335_VROOT" cat="VROOT">
+            <edge label="--" idref="s63335_7"/>
+            <edge label="--" idref="s63335_20"/>
+            <edge label="--" idref="s63335_24"/>
+            <edge label="--" idref="s63335_33"/>
+            <edge label="--" idref="s63335_47"/>
+            <edge label="--" idref="s63335_558"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63336">
+      <graph root="s63336_VROOT">
+        <terminals>
+          <t id="s63336_1" word="Diesen" lemma="dieser" pos="PDAT" morph="asm"/>
+          <t id="s63336_2" word="V-Mann" lemma="V-Mann" pos="NN" morph="asm"/>
+          <t id="s63336_3" word="habe" lemma="haben%aux" pos="VAFIN" morph="3sks"/>
+          <t id="s63336_4" word="dann" lemma="dann" pos="ADV" morph="--"/>
+          <t id="s63336_5" word="der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63336_6" word="noch" lemma="noch" pos="ADV" morph="--"/>
+          <t id="s63336_7" word="bis" lemma="bis" pos="APPR" morph="a"/>
+          <t id="s63336_8" word="1981" lemma="1981" pos="CARD" morph="--"/>
+          <t id="s63336_9" word="amtierende" lemma="amtierend" pos="ADJA" morph="nsm"/>
+          <t id="s63336_10" word="SPD-Innensenator" lemma="SPD-Innensenator" pos="NN" morph="nsm"/>
+          <t id="s63336_11" word="Ulrich" lemma="Ulrich" pos="NE" morph="nsm"/>
+          <t id="s63336_12" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63336_13" word="abschalten" lemma="ab#schalten" pos="VVINF" morph="--"/>
+          <t id="s63336_14" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63336_15" word="lassen" lemma="lassen" pos="VVINF" morph="--"/>
+          <t id="s63336_16" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63336_17" word="was" lemma="was" pos="PRELS" morph="nsn"/>
+          <t id="s63336_18" word="dessen" lemma="dessen" pos="PDAT" morph="gsm"/>
+          <t id="s63336_19" word="CDU-Nachfolger" lemma="CDU-Nachfolger" pos="NN" morph="asm"/>
+          <t id="s63336_20" word="Lummer" lemma="Lummer" pos="NE" morph="asm"/>
+          <t id="s63336_21" word="jedoch" lemma="jedoch" pos="ADV" morph="--"/>
+          <t id="s63336_22" word="nicht" lemma="nicht" pos="PTKNEG" morph="--"/>
+          <t id="s63336_23" word="daran" lemma="daran" pos="PROP" morph="--"/>
+          <t id="s63336_24" word="gehindert" lemma="hindern" pos="VVPP" morph="--"/>
+          <t id="s63336_25" word="hätte" lemma="haben%aux" pos="VAFIN" morph="3skt"/>
+          <t id="s63336_26" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63336_27" word="ihn" lemma="er" pos="PPER" morph="asm3"/>
+          <t id="s63336_28" word="seinerseits" lemma="seinerseits" pos="ADV" morph="--"/>
+          <t id="s63336_29" word="wieder" lemma="wieder" pos="ADV" morph="--"/>
+          <t id="s63336_30" word="zu" lemma="zu" pos="PTKZU" morph="--"/>
+          <t id="s63336_31" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63336_32" word="reaktivieren" lemma="reaktivieren" pos="VVINF" morph="--"/>
+          <t id="s63336_33" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63336_34" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63336_500" cat="NX">
+            <edge label="-" idref="s63336_1"/>
+            <edge label="HD" idref="s63336_2"/>
+          </nt>
+          <nt id="s63336_501" cat="VXFIN">
+            <edge label="HD" idref="s63336_3"/>
+          </nt>
+          <nt id="s63336_502" cat="ADVX">
+            <edge label="HD" idref="s63336_4"/>
+          </nt>
+          <nt id="s63336_503" cat="ADVX">
+            <edge label="HD" idref="s63336_6"/>
+          </nt>
+          <nt id="s63336_504" cat="NX">
+            <edge label="HD" idref="s63336_8"/>
+          </nt>
+          <nt id="s63336_505" cat="NX=PER">
+            <edge label="HD" idref="s63336_11"/>
+          </nt>
+          <nt id="s63336_506" cat="VXINF">
+            <edge label="HD" idref="s63336_13"/>
+          </nt>
+          <nt id="s63336_507" cat="VXINF">
+            <edge label="HD" idref="s63336_15"/>
+          </nt>
+          <nt id="s63336_508" cat="NX">
+            <edge label="HD" idref="s63336_17"/>
+          </nt>
+          <nt id="s63336_509" cat="NX">
+            <edge label="-" idref="s63336_18"/>
+            <edge label="HD" idref="s63336_19"/>
+          </nt>
+          <nt id="s63336_510" cat="NX=PER">
+            <edge label="HD" idref="s63336_20"/>
+          </nt>
+          <nt id="s63336_511" cat="ADVX">
+            <edge label="HD" idref="s63336_21"/>
+          </nt>
+          <nt id="s63336_512" cat="ADVX">
+            <edge label="HD" idref="s63336_22"/>
+          </nt>
+          <nt id="s63336_513" cat="PX">
+            <edge label="HD" idref="s63336_23"/>
+          </nt>
+          <nt id="s63336_514" cat="VXINF">
+            <edge label="HD" idref="s63336_24"/>
+          </nt>
+          <nt id="s63336_515" cat="VXFIN">
+            <edge label="HD" idref="s63336_25"/>
+          </nt>
+          <nt id="s63336_516" cat="NX">
+            <edge label="HD" idref="s63336_27"/>
+          </nt>
+          <nt id="s63336_517" cat="ADVX">
+            <edge label="HD" idref="s63336_28"/>
+          </nt>
+          <nt id="s63336_518" cat="ADVX">
+            <edge label="HD" idref="s63336_29"/>
+          </nt>
+          <nt id="s63336_519" cat="VXINF">
+            <edge label="HD" idref="s63336_30"/>
+            <edge label="-" idref="s63336_32"/>
+          </nt>
+          <nt id="s63336_520" cat="VF">
+            <edge label="OA" idref="s63336_500"/>
+          </nt>
+          <nt id="s63336_521" cat="LK">
+            <edge label="HD" idref="s63336_501"/>
+          </nt>
+          <nt id="s63336_522" cat="PX">
+            <edge label="-" idref="s63336_7"/>
+            <edge label="HD" idref="s63336_504"/>
+          </nt>
+          <nt id="s63336_523" cat="VC">
+            <edge label="OV" idref="s63336_506"/>
+            <edge label="HD" idref="s63336_507"/>
+          </nt>
+          <nt id="s63336_524" cat="C">
+            <edge label="ON" idref="s63336_508"/>
+          </nt>
+          <nt id="s63336_525" cat="NX">
+            <edge label="APP" idref="s63336_509"/>
+            <edge label="APP" idref="s63336_510"/>
+          </nt>
+          <nt id="s63336_526" cat="VC">
+            <edge label="OV" idref="s63336_514"/>
+            <edge label="HD" idref="s63336_515"/>
+          </nt>
+          <nt id="s63336_527" cat="MF">
+            <edge label="OA" idref="s63336_516"/>
+            <edge label="MOD" idref="s63336_517"/>
+            <edge label="MOD" idref="s63336_518"/>
+          </nt>
+          <nt id="s63336_528" cat="VC">
+            <edge label="HD" idref="s63336_519"/>
+          </nt>
+          <nt id="s63336_529" cat="ADJX">
+            <edge label="HD" idref="s63336_9"/>
+            <edge label="-" idref="s63336_503"/>
+            <edge label="-" idref="s63336_522"/>
+          </nt>
+          <nt id="s63336_530" cat="MF">
+            <edge label="MOD" idref="s63336_511"/>
+            <edge label="MOD" idref="s63336_512"/>
+            <edge label="OPP" idref="s63336_513"/>
+            <edge label="OA" idref="s63336_525"/>
+          </nt>
+          <nt id="s63336_531" cat="SIMPX">
+            <edge label="-" idref="s63336_527"/>
+            <edge label="-" idref="s63336_528"/>
+          </nt>
+          <nt id="s63336_532" cat="NX">
+            <edge label="-" idref="s63336_5"/>
+            <edge label="HD" idref="s63336_10"/>
+            <edge label="-" idref="s63336_529"/>
+          </nt>
+          <nt id="s63336_533" cat="NF">
+            <edge label="OPP-MOD" idref="s63336_531"/>
+          </nt>
+          <nt id="s63336_534" cat="NX">
+            <edge label="APP" idref="s63336_505"/>
+            <edge label="APP" idref="s63336_532"/>
+          </nt>
+          <nt id="s63336_535" cat="R-SIMPX">
+            <edge label="-" idref="s63336_524"/>
+            <edge label="-" idref="s63336_526"/>
+            <edge label="-" idref="s63336_530"/>
+            <edge label="-" idref="s63336_533"/>
+          </nt>
+          <nt id="s63336_536" cat="MF">
+            <edge label="MOD" idref="s63336_502"/>
+            <edge label="ON" idref="s63336_534"/>
+          </nt>
+          <nt id="s63336_537" cat="NF">
+            <edge label="MOD" idref="s63336_535"/>
+          </nt>
+          <nt id="s63336_538" cat="SIMPX">
+            <edge label="-" idref="s63336_520"/>
+            <edge label="-" idref="s63336_521"/>
+            <edge label="-" idref="s63336_523"/>
+            <edge label="-" idref="s63336_536"/>
+            <edge label="-" idref="s63336_537"/>
+          </nt>
+          <nt id="s63336_VROOT" cat="VROOT">
+            <edge label="--" idref="s63336_12"/>
+            <edge label="--" idref="s63336_14"/>
+            <edge label="--" idref="s63336_16"/>
+            <edge label="--" idref="s63336_26"/>
+            <edge label="--" idref="s63336_31"/>
+            <edge label="--" idref="s63336_33"/>
+            <edge label="--" idref="s63336_34"/>
+            <edge label="--" idref="s63336_538"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63337">
+      <graph root="s63337_VROOT">
+        <terminals>
+          <t id="s63337_1" word="Anfang" lemma="Anfang" pos="NN" morph="asm"/>
+          <t id="s63337_2" word="1982" lemma="1982" pos="CARD" morph="--"/>
+          <t id="s63337_3" word="habe" lemma="haben%aux" pos="VAFIN" morph="3sks"/>
+          <t id="s63337_4" word="dann" lemma="dann" pos="ADV" morph="--"/>
+          <t id="s63337_5" word="für" lemma="für" pos="APPR" morph="a"/>
+          <t id="s63337_6" word="ein" lemma="ein" pos="ART" morph="asn"/>
+          <t id="s63337_7" word="knappes" lemma="knapp" pos="ADJA" morph="asn"/>
+          <t id="s63337_8" word="halbes" lemma="halb" pos="ADJA" morph="asn"/>
+          <t id="s63337_9" word="Jahr" lemma="Jahr" pos="NN" morph="asn"/>
+          <t id="s63337_10" word="ein" lemma="ein" pos="ART" morph="nsm"/>
+          <t id="s63337_11" word="weiterer" lemma="weiter" pos="ADJA" morph="nsm"/>
+          <t id="s63337_12" word="Verfassungsschutzspitzel" lemma="Verfassungsschutzspitzel" pos="NN" morph="nsm"/>
+          <t id="s63337_13" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63337_14" word="nichtredaktionellen" lemma="nichtredaktionell" pos="ADJA" morph="dsm"/>
+          <t id="s63337_15" word="Bereich" lemma="Bereich" pos="NN" morph="dsm"/>
+          <t id="s63337_16" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63337_17" word="taz" lemma="taz" pos="NE" morph="gsf"/>
+          <t id="s63337_18" word="gearbeitet" lemma="arbeiten" pos="VVPP" morph="--"/>
+          <t id="s63337_19" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63337_500" cat="NX">
+            <edge label="HD" idref="s63337_1"/>
+          </nt>
+          <nt id="s63337_501" cat="NX">
+            <edge label="HD" idref="s63337_2"/>
+          </nt>
+          <nt id="s63337_502" cat="VXFIN">
+            <edge label="HD" idref="s63337_3"/>
+          </nt>
+          <nt id="s63337_503" cat="ADVX">
+            <edge label="HD" idref="s63337_4"/>
+          </nt>
+          <nt id="s63337_504" cat="ADJX">
+            <edge label="HD" idref="s63337_7"/>
+          </nt>
+          <nt id="s63337_505" cat="ADJX">
+            <edge label="HD" idref="s63337_8"/>
+          </nt>
+          <nt id="s63337_506" cat="ADJX">
+            <edge label="HD" idref="s63337_11"/>
+          </nt>
+          <nt id="s63337_507" cat="ADJX">
+            <edge label="HD" idref="s63337_14"/>
+          </nt>
+          <nt id="s63337_508" cat="NX=ORG">
+            <edge label="-NE" idref="s63337_16"/>
+            <edge label="HD" idref="s63337_17"/>
+          </nt>
+          <nt id="s63337_509" cat="VXINF">
+            <edge label="HD" idref="s63337_18"/>
+          </nt>
+          <nt id="s63337_510" cat="NX">
+            <edge label="HD" idref="s63337_500"/>
+            <edge label="-" idref="s63337_501"/>
+          </nt>
+          <nt id="s63337_511" cat="LK">
+            <edge label="HD" idref="s63337_502"/>
+          </nt>
+          <nt id="s63337_512" cat="NX">
+            <edge label="-" idref="s63337_6"/>
+            <edge label="HD" idref="s63337_9"/>
+            <edge label="-" idref="s63337_504"/>
+            <edge label="-" idref="s63337_505"/>
+          </nt>
+          <nt id="s63337_513" cat="NX">
+            <edge label="-" idref="s63337_10"/>
+            <edge label="HD" idref="s63337_12"/>
+            <edge label="-" idref="s63337_506"/>
+          </nt>
+          <nt id="s63337_514" cat="NX">
+            <edge label="HD" idref="s63337_15"/>
+            <edge label="-" idref="s63337_507"/>
+          </nt>
+          <nt id="s63337_515" cat="VC">
+            <edge label="OV" idref="s63337_509"/>
+          </nt>
+          <nt id="s63337_516" cat="VF">
+            <edge label="V-MOD" idref="s63337_510"/>
+          </nt>
+          <nt id="s63337_517" cat="PX">
+            <edge label="-" idref="s63337_5"/>
+            <edge label="HD" idref="s63337_512"/>
+          </nt>
+          <nt id="s63337_518" cat="NX">
+            <edge label="-" idref="s63337_508"/>
+            <edge label="HD" idref="s63337_514"/>
+          </nt>
+          <nt id="s63337_519" cat="PX">
+            <edge label="-" idref="s63337_13"/>
+            <edge label="HD" idref="s63337_518"/>
+          </nt>
+          <nt id="s63337_520" cat="MF">
+            <edge label="MOD" idref="s63337_503"/>
+            <edge label="ON" idref="s63337_513"/>
+            <edge label="V-MOD" idref="s63337_517"/>
+            <edge label="V-MOD" idref="s63337_519"/>
+          </nt>
+          <nt id="s63337_521" cat="SIMPX">
+            <edge label="-" idref="s63337_511"/>
+            <edge label="-" idref="s63337_515"/>
+            <edge label="-" idref="s63337_516"/>
+            <edge label="-" idref="s63337_520"/>
+          </nt>
+          <nt id="s63337_VROOT" cat="VROOT">
+            <edge label="--" idref="s63337_19"/>
+            <edge label="--" idref="s63337_521"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63338">
+      <graph root="s63338_VROOT">
+        <terminals>
+          <t id="s63338_1" word="Der" lemma="der" pos="ART" morph="nsm">
+ </t>
+          <t id="s63338_2" word="Mann" lemma="Mann" pos="NN" morph="nsm">
+ </t>
+          <t id="s63338_3" word="war" lemma="sein%aux" pos="VAFIN" morph="3sit">
+ </t>
+          <t id="s63338_4" word="wegen" lemma="wegen" pos="APPR" morph="g">
+ </t>
+          <t id="s63338_5" word="eines" lemma="ein" pos="ART" morph="gsn">
+ </t>
+          <t id="s63338_6" word="Tötungsdelikts" lemma="Tötungsdelikt" pos="NN" morph="gsn">
+ </t>
+          <t id="s63338_7" word="verurteilt" lemma="verurteilen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63338_8" word="und" lemma="und" pos="KON" morph="--">
+ </t>
+          <t id="s63338_9" word="kam" lemma="kommen" pos="VVFIN" morph="3sit">
+ </t>
+          <t id="s63338_10" word="in" lemma="in" pos="APPR" morph="a">
+ </t>
+          <t id="s63338_11" word="die" lemma="die" pos="ART" morph="asf">
+ </t>
+          <t id="s63338_12" word="taz" lemma="taz" pos="NE" morph="asf">
+ </t>
+          <t id="s63338_13" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63338_14" word="nachdem" lemma="nachdem" pos="KOUS" morph="--">
+ </t>
+          <t id="s63338_15" word="er" lemma="er" pos="PPER" morph="nsm3">
+ </t>
+          <t id="s63338_16" word="in" lemma="in" pos="APPR" morph="a">
+ </t>
+          <t id="s63338_17" word="den" lemma="der" pos="ART" morph="asm">
+ </t>
+          <t id="s63338_18" word="offenen" lemma="offen" pos="ADJA" morph="asm">
+ </t>
+          <t id="s63338_19" word="Vollzug" lemma="Vollzug" pos="NN" morph="asm">
+ </t>
+          <t id="s63338_20" word="verlegt" lemma="verlegen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63338_21" word="worden" lemma="werden%passiv" pos="VAPP" morph="--">
+ </t>
+          <t id="s63338_22" word="war" lemma="sein%aux" pos="VAFIN" morph="3sit">
+ </t>
+          <t id="s63338_23" word="." lemma="." pos="$." morph="--">
+ </t>
+        </terminals>
+        <nonterminals>
+          <nt id="s63338_500" cat="NX">
+            <edge label="-" idref="s63338_1"/>
+            <edge label="HD" idref="s63338_2"/>
+          </nt>
+          <nt id="s63338_501" cat="VXFIN">
+            <edge label="HD" idref="s63338_3"/>
+          </nt>
+          <nt id="s63338_502" cat="NX">
+            <edge label="-" idref="s63338_5"/>
+            <edge label="HD" idref="s63338_6"/>
+          </nt>
+          <nt id="s63338_503" cat="VXINF">
+            <edge label="HD" idref="s63338_7"/>
+          </nt>
+          <nt id="s63338_504" cat="VXFIN">
+            <edge label="HD" idref="s63338_9"/>
+          </nt>
+          <nt id="s63338_505" cat="NX=ORG">
+            <edge label="-NE" idref="s63338_11"/>
+            <edge label="HD" idref="s63338_12"/>
+          </nt>
+          <nt id="s63338_506" cat="C">
+            <edge label="-" idref="s63338_14"/>
+          </nt>
+          <nt id="s63338_507" cat="NX">
+            <edge label="HD" idref="s63338_15"/>
+          </nt>
+          <nt id="s63338_508" cat="ADJX">
+            <edge label="HD" idref="s63338_18"/>
+          </nt>
+          <nt id="s63338_509" cat="VXINF">
+            <edge label="HD" idref="s63338_20"/>
+          </nt>
+          <nt id="s63338_510" cat="VXINF">
+            <edge label="HD" idref="s63338_21"/>
+            <secedge label="refvc" idref="s63338_509"/>
+          </nt>
+          <nt id="s63338_511" cat="VXFIN">
+            <edge label="HD" idref="s63338_22"/>
+          </nt>
+          <nt id="s63338_512" cat="VF">
+            <edge label="ON" idref="s63338_500"/>
+          </nt>
+          <nt id="s63338_513" cat="LK">
+            <edge label="HD" idref="s63338_501"/>
+          </nt>
+          <nt id="s63338_514" cat="PX">
+            <edge label="-" idref="s63338_4"/>
+            <edge label="HD" idref="s63338_502"/>
+          </nt>
+          <nt id="s63338_515" cat="VC">
+            <edge label="OV" idref="s63338_503"/>
+          </nt>
+          <nt id="s63338_516" cat="LK">
+            <edge label="HD" idref="s63338_504"/>
+          </nt>
+          <nt id="s63338_517" cat="PX">
+            <edge label="-" idref="s63338_10"/>
+            <edge label="HD" idref="s63338_505"/>
+          </nt>
+          <nt id="s63338_518" cat="NX">
+            <edge label="-" idref="s63338_17"/>
+            <edge label="HD" idref="s63338_19"/>
+            <edge label="-" idref="s63338_508"/>
+          </nt>
+          <nt id="s63338_519" cat="VC">
+            <edge label="OV" idref="s63338_509"/>
+            <edge label="OV" idref="s63338_510"/>
+            <edge label="HD" idref="s63338_511"/>
+          </nt>
+          <nt id="s63338_520" cat="MF">
+            <edge label="V-MOD" idref="s63338_514"/>
+          </nt>
+          <nt id="s63338_521" cat="MF">
+            <edge label="OPP" idref="s63338_517"/>
+          </nt>
+          <nt id="s63338_522" cat="PX">
+            <edge label="-" idref="s63338_16"/>
+            <edge label="HD" idref="s63338_518"/>
+          </nt>
+          <nt id="s63338_523" cat="FKONJ">
+            <edge label="-" idref="s63338_513"/>
+            <edge label="-" idref="s63338_515"/>
+            <edge label="-" idref="s63338_520"/>
+          </nt>
+          <nt id="s63338_524" cat="MF">
+            <edge label="ON" idref="s63338_507"/>
+            <edge label="FOPP" idref="s63338_522"/>
+          </nt>
+          <nt id="s63338_525" cat="SIMPX">
+            <edge label="-" idref="s63338_506"/>
+            <edge label="-" idref="s63338_519"/>
+            <edge label="-" idref="s63338_524"/>
+          </nt>
+          <nt id="s63338_526" cat="NF">
+            <edge label="MOD" idref="s63338_525"/>
+          </nt>
+          <nt id="s63338_527" cat="FKONJ">
+            <edge label="-" idref="s63338_516"/>
+            <edge label="-" idref="s63338_521"/>
+            <edge label="-" idref="s63338_526"/>
+          </nt>
+          <nt id="s63338_528" cat="FKOORD">
+            <edge label="-" idref="s63338_8"/>
+            <edge label="KONJ" idref="s63338_523"/>
+            <edge label="KONJ" idref="s63338_527"/>
+          </nt>
+          <nt id="s63338_529" cat="SIMPX">
+            <edge label="-" idref="s63338_512"/>
+            <edge label="-" idref="s63338_528"/>
+          </nt>
+          <nt id="s63338_VROOT" cat="VROOT">
+            <edge label="--" idref="s63338_13"/>
+            <edge label="--" idref="s63338_23"/>
+            <edge label="--" idref="s63338_529"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63339">
+      <graph root="s63339_VROOT">
+        <terminals>
+          <t id="s63339_1" word="Aufgrund" lemma="aufgrund" pos="APPR" morph="g"/>
+          <t id="s63339_2" word="einer" lemma="eine" pos="ART" morph="gsf"/>
+          <t id="s63339_3" word="neuerlichen" lemma="neuerlich" pos="ADJA" morph="gsf"/>
+          <t id="s63339_4" word="Straftat" lemma="Straftat" pos="NN" morph="gsf"/>
+          <t id="s63339_5" word="wurde" lemma="werden%passiv" pos="VAFIN" morph="3sit"/>
+          <t id="s63339_6" word="seine" lemma="seine" pos="PPOSAT" morph="nsf"/>
+          <t id="s63339_7" word="taz-Karriere" lemma="taz-Karriere" pos="NN" morph="nsf"/>
+          <t id="s63339_8" word="jedoch" lemma="jedoch" pos="ADV" morph="--"/>
+          <t id="s63339_9" word="im" lemma="in" pos="APPRART" morph="dsn"/>
+          <t id="s63339_10" word="Jahr" lemma="Jahr" pos="NN" morph="dsn"/>
+          <t id="s63339_11" word="82" lemma="82" pos="CARD" morph="--"/>
+          <t id="s63339_12" word="abrupt" lemma="abrupt" pos="ADJD" morph="--"/>
+          <t id="s63339_13" word="wieder" lemma="wieder" pos="ADV" morph="--"/>
+          <t id="s63339_14" word="beendet" lemma="beenden" pos="VVPP" morph="--"/>
+          <t id="s63339_15" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63339_16" word="und" lemma="und" pos="KON" morph="--"/>
+          <t id="s63339_17" word="der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63339_18" word="Mann" lemma="Mann" pos="NN" morph="nsm"/>
+          <t id="s63339_19" word="landete" lemma="landen" pos="VVFIN" morph="3sit"/>
+          <t id="s63339_20" word="wieder" lemma="wieder" pos="ADV" morph="--"/>
+          <t id="s63339_21" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63339_22" word="Knast" lemma="Knast" pos="NN" morph="dsm"/>
+          <t id="s63339_23" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63339_500" cat="ADJX">
+            <edge label="HD" idref="s63339_3"/>
+          </nt>
+          <nt id="s63339_501" cat="VXFIN">
+            <edge label="HD" idref="s63339_5"/>
+          </nt>
+          <nt id="s63339_502" cat="NX">
+            <edge label="-" idref="s63339_6"/>
+            <edge label="HD" idref="s63339_7"/>
+          </nt>
+          <nt id="s63339_503" cat="ADVX">
+            <edge label="HD" idref="s63339_8"/>
+          </nt>
+          <nt id="s63339_504" cat="NX">
+            <edge label="HD" idref="s63339_10"/>
+          </nt>
+          <nt id="s63339_505" cat="NX">
+            <edge label="HD" idref="s63339_11"/>
+          </nt>
+          <nt id="s63339_506" cat="ADJX">
+            <edge label="HD" idref="s63339_12"/>
+          </nt>
+          <nt id="s63339_507" cat="ADVX">
+            <edge label="HD" idref="s63339_13"/>
+          </nt>
+          <nt id="s63339_508" cat="VXINF">
+            <edge label="HD" idref="s63339_14"/>
+          </nt>
+          <nt id="s63339_509" cat="NX">
+            <edge label="-" idref="s63339_17"/>
+            <edge label="HD" idref="s63339_18"/>
+          </nt>
+          <nt id="s63339_510" cat="VXFIN">
+            <edge label="HD" idref="s63339_19"/>
+          </nt>
+          <nt id="s63339_511" cat="ADVX">
+            <edge label="HD" idref="s63339_20"/>
+          </nt>
+          <nt id="s63339_512" cat="NX">
+            <edge label="HD" idref="s63339_22"/>
+          </nt>
+          <nt id="s63339_513" cat="NX">
+            <edge label="-" idref="s63339_2"/>
+            <edge label="HD" idref="s63339_4"/>
+            <edge label="-" idref="s63339_500"/>
+          </nt>
+          <nt id="s63339_514" cat="LK">
+            <edge label="HD" idref="s63339_501"/>
+          </nt>
+          <nt id="s63339_515" cat="NX">
+            <edge label="APP" idref="s63339_504"/>
+            <edge label="APP" idref="s63339_505"/>
+          </nt>
+          <nt id="s63339_516" cat="VC">
+            <edge label="OV" idref="s63339_508"/>
+          </nt>
+          <nt id="s63339_517" cat="VF">
+            <edge label="ON" idref="s63339_509"/>
+          </nt>
+          <nt id="s63339_518" cat="LK">
+            <edge label="HD" idref="s63339_510"/>
+          </nt>
+          <nt id="s63339_519" cat="PX">
+            <edge label="-" idref="s63339_21"/>
+            <edge label="HD" idref="s63339_512"/>
+          </nt>
+          <nt id="s63339_520" cat="PX">
+            <edge label="-" idref="s63339_1"/>
+            <edge label="HD" idref="s63339_513"/>
+          </nt>
+          <nt id="s63339_521" cat="PX">
+            <edge label="-" idref="s63339_9"/>
+            <edge label="HD" idref="s63339_515"/>
+          </nt>
+          <nt id="s63339_522" cat="MF">
+            <edge label="MOD" idref="s63339_511"/>
+            <edge label="OPP" idref="s63339_519"/>
+          </nt>
+          <nt id="s63339_523" cat="VF">
+            <edge label="V-MOD" idref="s63339_520"/>
+          </nt>
+          <nt id="s63339_524" cat="MF">
+            <edge label="ON" idref="s63339_502"/>
+            <edge label="MOD" idref="s63339_503"/>
+            <edge label="V-MOD" idref="s63339_506"/>
+            <edge label="MOD" idref="s63339_507"/>
+            <edge label="V-MOD" idref="s63339_521"/>
+          </nt>
+          <nt id="s63339_525" cat="SIMPX">
+            <edge label="-" idref="s63339_517"/>
+            <edge label="-" idref="s63339_518"/>
+            <edge label="-" idref="s63339_522"/>
+          </nt>
+          <nt id="s63339_526" cat="SIMPX">
+            <edge label="-" idref="s63339_514"/>
+            <edge label="-" idref="s63339_516"/>
+            <edge label="-" idref="s63339_523"/>
+            <edge label="-" idref="s63339_524"/>
+          </nt>
+          <nt id="s63339_527" cat="SIMPX">
+            <edge label="-" idref="s63339_16"/>
+            <edge label="KONJ" idref="s63339_525"/>
+            <edge label="KONJ" idref="s63339_526"/>
+          </nt>
+          <nt id="s63339_VROOT" cat="VROOT">
+            <edge label="--" idref="s63339_15"/>
+            <edge label="--" idref="s63339_23"/>
+            <edge label="--" idref="s63339_527"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63340">
+      <graph root="s63340_VROOT">
+        <terminals>
+          <t id="s63340_1" word="An" lemma="an" pos="APPR" morph="d">
+ </t>
+          <t id="s63340_2" word="dem" lemma="der" pos="ART" morph="dsm">
+ </t>
+          <t id="s63340_3" word="Versuch" lemma="Versuch" pos="NN" morph="dsm">
+ </t>
+          <t id="s63340_4" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63340_5" word="den" lemma="der" pos="ART" morph="asm">
+ </t>
+          <t id="s63340_6" word="Mann" lemma="Mann" pos="NN" morph="asm">
+ </t>
+          <t id="s63340_7" word="in" lemma="in" pos="APPR" morph="d">
+ </t>
+          <t id="s63340_8" word="der" lemma="die" pos="ART" morph="dsf">
+ </t>
+          <t id="s63340_9" word="taz" lemma="taz" pos="NE" morph="dsf">
+ </t>
+          <t id="s63340_10" word="dauerhaft" lemma="dauerhaft" pos="ADJD" morph="--">
+ </t>
+          <t id="s63340_11" word="als" lemma="als" pos="KOKOM" morph="--">
+ </t>
+          <t id="s63340_12" word="Spitzel" lemma="Spitzel" pos="NN" morph="asm">
+ </t>
+          <t id="s63340_13" word="zu" lemma="zu" pos="PTKZU" morph="--">
+ </t>
+          <t id="s63340_14" word="installieren" lemma="installieren" pos="VVINF" morph="--">
+ </t>
+          <t id="s63340_15" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63340_16" word="soll" lemma="sollen%aux" pos="VMFIN" morph="3sis">
+ </t>
+          <t id="s63340_17" word="auch" lemma="auch" pos="ADV" morph="--">
+ </t>
+          <t id="s63340_18" word="der" lemma="der" pos="ART" morph="nsm">
+ </t>
+          <t id="s63340_19" word="damalige" lemma="damalig" pos="ADJA" morph="nsm">
+ </t>
+          <t id="s63340_20" word="Staatsanwalt" lemma="Staatsanwalt" pos="NN" morph="nsm">
+ </t>
+          <t id="s63340_21" word="und" lemma="und" pos="KON" morph="--">
+ </t>
+          <t id="s63340_22" word="heute" lemma="heute" pos="ADV" morph="--">
+ </t>
+          <t id="s63340_23" word="Staatssekretär" lemma="Staatssekretär" pos="NN" morph="nsm">
+ </t>
+          <t id="s63340_24" word="im" lemma="in" pos="APPRART" morph="dsm">
+ </t>
+          <t id="s63340_25" word="Innensenat" lemma="Innensenat" pos="NN" morph="dsm">
+ </t>
+          <t id="s63340_26" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63340_27" word="Müllenbrock" lemma="Müllenbrock" pos="NE" morph="nsm">
+ </t>
+          <t id="s63340_28" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63340_29" word="beteiligt" lemma="beteiligen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63340_30" word="gewesen" lemma="sein%aux" pos="VAPP" morph="--">
+ </t>
+          <t id="s63340_31" word="sein" lemma="sein%aux" pos="VAINF" morph="--">
+ </t>
+          <t id="s63340_32" word="." lemma="." pos="$." morph="--">
+ </t>
+        </terminals>
+        <nonterminals>
+          <nt id="s63340_500" cat="NX">
+            <edge label="-" idref="s63340_2"/>
+            <edge label="HD" idref="s63340_3"/>
+          </nt>
+          <nt id="s63340_501" cat="NX">
+            <edge label="-" idref="s63340_5"/>
+            <edge label="HD" idref="s63340_6"/>
+          </nt>
+          <nt id="s63340_502" cat="NX=ORG">
+            <edge label="-NE" idref="s63340_8"/>
+            <edge label="HD" idref="s63340_9"/>
+          </nt>
+          <nt id="s63340_503" cat="ADJX">
+            <edge label="HD" idref="s63340_10"/>
+          </nt>
+          <nt id="s63340_504" cat="NX">
+            <edge label="-" idref="s63340_11"/>
+            <edge label="HD" idref="s63340_12"/>
+          </nt>
+          <nt id="s63340_505" cat="VXINF">
+            <edge label="HD" idref="s63340_13"/>
+            <edge label="-" idref="s63340_14"/>
+          </nt>
+          <nt id="s63340_506" cat="VXFIN">
+            <edge label="HD" idref="s63340_16"/>
+          </nt>
+          <nt id="s63340_507" cat="ADVX">
+            <edge label="HD" idref="s63340_17"/>
+          </nt>
+          <nt id="s63340_508" cat="ADJX">
+            <edge label="HD" idref="s63340_19"/>
+          </nt>
+          <nt id="s63340_509" cat="ADVX">
+            <edge label="HD" idref="s63340_22"/>
+          </nt>
+          <nt id="s63340_510" cat="NX">
+            <edge label="HD" idref="s63340_23"/>
+          </nt>
+          <nt id="s63340_511" cat="NX">
+            <edge label="HD" idref="s63340_25"/>
+          </nt>
+          <nt id="s63340_512" cat="NX=PER">
+            <edge label="HD" idref="s63340_27"/>
+          </nt>
+          <nt id="s63340_513" cat="VXINF">
+            <edge label="HD" idref="s63340_29"/>
+          </nt>
+          <nt id="s63340_514" cat="VXINF">
+            <edge label="HD" idref="s63340_30"/>
+            <secedge label="refvc" idref="s63340_513"/>
+          </nt>
+          <nt id="s63340_515" cat="VXINF">
+            <edge label="HD" idref="s63340_31"/>
+          </nt>
+          <nt id="s63340_516" cat="PX">
+            <edge label="-" idref="s63340_7"/>
+            <edge label="HD" idref="s63340_502"/>
+          </nt>
+          <nt id="s63340_517" cat="VC">
+            <edge label="HD" idref="s63340_505"/>
+          </nt>
+          <nt id="s63340_518" cat="LK">
+            <edge label="HD" idref="s63340_506"/>
+          </nt>
+          <nt id="s63340_519" cat="NX">
+            <edge label="-" idref="s63340_18"/>
+            <edge label="HD" idref="s63340_20"/>
+            <edge label="-" idref="s63340_508"/>
+          </nt>
+          <nt id="s63340_520" cat="PX">
+            <edge label="-" idref="s63340_24"/>
+            <edge label="HD" idref="s63340_511"/>
+          </nt>
+          <nt id="s63340_521" cat="VC">
+            <edge label="OV" idref="s63340_513"/>
+            <edge label="OV" idref="s63340_514"/>
+            <edge label="HD" idref="s63340_515"/>
+          </nt>
+          <nt id="s63340_522" cat="MF">
+            <edge label="OA" idref="s63340_501"/>
+            <edge label="MOD" idref="s63340_503"/>
+            <edge label="PRED" idref="s63340_504"/>
+            <edge label="V-MOD" idref="s63340_516"/>
+          </nt>
+          <nt id="s63340_523" cat="NX">
+            <edge label="-" idref="s63340_509"/>
+            <edge label="HD" idref="s63340_510"/>
+            <edge label="-" idref="s63340_520"/>
+          </nt>
+          <nt id="s63340_524" cat="SIMPX">
+            <edge label="-" idref="s63340_517"/>
+            <edge label="-" idref="s63340_522"/>
+          </nt>
+          <nt id="s63340_525" cat="NX">
+            <edge label="-" idref="s63340_21"/>
+            <edge label="KONJ" idref="s63340_519"/>
+            <edge label="KONJ" idref="s63340_523"/>
+          </nt>
+          <nt id="s63340_526" cat="NX">
+            <edge label="HD" idref="s63340_500"/>
+            <edge label="-" idref="s63340_524"/>
+          </nt>
+          <nt id="s63340_527" cat="NX">
+            <edge label="APP" idref="s63340_512"/>
+            <edge label="APP" idref="s63340_525"/>
+          </nt>
+          <nt id="s63340_528" cat="PX">
+            <edge label="-" idref="s63340_1"/>
+            <edge label="HD" idref="s63340_526"/>
+          </nt>
+          <nt id="s63340_529" cat="MF">
+            <edge label="MOD" idref="s63340_507"/>
+            <edge label="ON" idref="s63340_527"/>
+          </nt>
+          <nt id="s63340_530" cat="VF">
+            <edge label="FOPP" idref="s63340_528"/>
+          </nt>
+          <nt id="s63340_531" cat="SIMPX">
+            <edge label="-" idref="s63340_518"/>
+            <edge label="-" idref="s63340_521"/>
+            <edge label="-" idref="s63340_529"/>
+            <edge label="-" idref="s63340_530"/>
+          </nt>
+          <nt id="s63340_VROOT" cat="VROOT">
+            <edge label="--" idref="s63340_4"/>
+            <edge label="--" idref="s63340_15"/>
+            <edge label="--" idref="s63340_26"/>
+            <edge label="--" idref="s63340_28"/>
+            <edge label="--" idref="s63340_32"/>
+            <edge label="--" idref="s63340_531"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63341">
+      <graph root="s63341_VROOT">
+        <terminals>
+          <t id="s63341_1" word="Nach" lemma="nach" pos="APPR" morph="d"/>
+          <t id="s63341_2" word="Überzeugung" lemma="Überzeugung" pos="NN" morph="dsf"/>
+          <t id="s63341_3" word="von" lemma="von" pos="APPR" morph="d"/>
+          <t id="s63341_4" word="Wolfgang" lemma="Wolfgang" pos="NE" morph="dsm"/>
+          <t id="s63341_5" word="Wieland" lemma="Wieland" pos="NE" morph="dsm"/>
+          <t id="s63341_6" word="sind" lemma="sein" pos="VAFIN" morph="3pis"/>
+          <t id="s63341_7" word="seine" lemma="sein" pos="PPOSAT" morph="npm"/>
+          <t id="s63341_8" word="Informanten" lemma="Informant" pos="NN" morph="npm"/>
+          <t id="s63341_9" word="absolut" lemma="absolut" pos="ADJD" morph="--"/>
+          <t id="s63341_10" word="zuverlässig" lemma="zuverlässig" pos="ADJD" morph="--"/>
+          <t id="s63341_11" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63341_500" cat="NX">
+            <edge label="HD" idref="s63341_2"/>
+          </nt>
+          <nt id="s63341_501" cat="NX=PER">
+            <edge label="-" idref="s63341_4"/>
+            <edge label="-" idref="s63341_5"/>
+          </nt>
+          <nt id="s63341_502" cat="VXFIN">
+            <edge label="HD" idref="s63341_6"/>
+          </nt>
+          <nt id="s63341_503" cat="NX">
+            <edge label="-" idref="s63341_7"/>
+            <edge label="HD" idref="s63341_8"/>
+          </nt>
+          <nt id="s63341_504" cat="ADJX">
+            <edge label="HD" idref="s63341_9"/>
+          </nt>
+          <nt id="s63341_505" cat="PX">
+            <edge label="-" idref="s63341_3"/>
+            <edge label="HD" idref="s63341_501"/>
+          </nt>
+          <nt id="s63341_506" cat="LK">
+            <edge label="HD" idref="s63341_502"/>
+          </nt>
+          <nt id="s63341_507" cat="ADJX">
+            <edge label="HD" idref="s63341_10"/>
+            <edge label="-" idref="s63341_504"/>
+          </nt>
+          <nt id="s63341_508" cat="NX">
+            <edge label="HD" idref="s63341_500"/>
+            <edge label="-" idref="s63341_505"/>
+          </nt>
+          <nt id="s63341_509" cat="MF">
+            <edge label="ON" idref="s63341_503"/>
+            <edge label="PRED" idref="s63341_507"/>
+          </nt>
+          <nt id="s63341_510" cat="PX">
+            <edge label="-" idref="s63341_1"/>
+            <edge label="HD" idref="s63341_508"/>
+          </nt>
+          <nt id="s63341_511" cat="VF">
+            <edge label="MOD" idref="s63341_510"/>
+          </nt>
+          <nt id="s63341_512" cat="SIMPX">
+            <edge label="-" idref="s63341_506"/>
+            <edge label="-" idref="s63341_509"/>
+            <edge label="-" idref="s63341_511"/>
+          </nt>
+          <nt id="s63341_VROOT" cat="VROOT">
+            <edge label="--" idref="s63341_11"/>
+            <edge label="--" idref="s63341_512"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63342">
+      <graph root="s63342_VROOT">
+        <terminals>
+          <t id="s63342_1" word="Gegenüber" lemma="gegenüber" pos="APPR" morph="d"/>
+          <t id="s63342_2" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63342_3" word="taz" lemma="taz" pos="NE" morph="dsf"/>
+          <t id="s63342_4" word="sagte" lemma="sagen" pos="VVFIN" morph="3sit"/>
+          <t id="s63342_5" word="Wieland" lemma="Wieland" pos="NE" morph="nsm"/>
+          <t id="s63342_6" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63342_7" word="der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63342_8" word="Schreiber" lemma="Schreiber" pos="NN" morph="nsm"/>
+          <t id="s63342_9" word="des" lemma="der" pos="ART" morph="gsm"/>
+          <t id="s63342_10" word="Briefes" lemma="Brief" pos="NN" morph="gsm"/>
+          <t id="s63342_11" word="an" lemma="an" pos="APPR" morph="a"/>
+          <t id="s63342_12" word="ihn" lemma="er" pos="PPER" morph="asm3"/>
+          <t id="s63342_13" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63342_14" word="sei" lemma="sein" pos="VAFIN" morph="3sks"/>
+          <t id="s63342_15" word="derselbe" lemma="derselbe" pos="PDS" morph="nsm"/>
+          <t id="s63342_16" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63342_17" word="der" lemma="der" pos="PRELS" morph="nsm"/>
+          <t id="s63342_18" word="sich" lemma="#refl" pos="PRF" morph="as*3"/>
+          <t id="s63342_19" word="bereits" lemma="bereits" pos="ADV" morph="--"/>
+          <t id="s63342_20" word="vor" lemma="vor" pos="APPR" morph="d"/>
+          <t id="s63342_21" word="einem" lemma="ein" pos="ART" morph="dsn"/>
+          <t id="s63342_22" word="Jahr" lemma="Jahr" pos="NN" morph="dsn"/>
+          <t id="s63342_23" word="schriftlich" lemma="schriftlich" pos="ADJD" morph="--"/>
+          <t id="s63342_24" word="mit" lemma="mit" pos="APPR" morph="d"/>
+          <t id="s63342_25" word="Informationen" lemma="Information" pos="NN" morph="dpf"/>
+          <t id="s63342_26" word="über" lemma="über" pos="APPR" morph="a"/>
+          <t id="s63342_27" word="die" lemma="die" pos="ART" morph="asf"/>
+          <t id="s63342_28" word="Bespitzelung" lemma="Bespitzelung" pos="NN" morph="asf"/>
+          <t id="s63342_29" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63342_30" word="AL" lemma="AL" pos="NE" morph="gsf"/>
+          <t id="s63342_31" word="an" lemma="an" pos="APPR" morph="a"/>
+          <t id="s63342_32" word="ihn" lemma="er" pos="PPER" morph="asm3"/>
+          <t id="s63342_33" word="gewandt" lemma="wenden" pos="VVPP" morph="--"/>
+          <t id="s63342_34" word="habe" lemma="haben%aux" pos="VAFIN" morph="3sks"/>
+          <t id="s63342_35" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63342_500" cat="NX=ORG">
+            <edge label="-NE" idref="s63342_2"/>
+            <edge label="HD" idref="s63342_3"/>
+          </nt>
+          <nt id="s63342_501" cat="VXFIN">
+            <edge label="HD" idref="s63342_4"/>
+          </nt>
+          <nt id="s63342_502" cat="NX=PER">
+            <edge label="HD" idref="s63342_5"/>
+          </nt>
+          <nt id="s63342_503" cat="NX">
+            <edge label="-" idref="s63342_7"/>
+            <edge label="HD" idref="s63342_8"/>
+          </nt>
+          <nt id="s63342_504" cat="NX">
+            <edge label="-" idref="s63342_9"/>
+            <edge label="HD" idref="s63342_10"/>
+          </nt>
+          <nt id="s63342_505" cat="NX">
+            <edge label="HD" idref="s63342_12"/>
+          </nt>
+          <nt id="s63342_506" cat="VXFIN">
+            <edge label="HD" idref="s63342_14"/>
+          </nt>
+          <nt id="s63342_507" cat="NX">
+            <edge label="HD" idref="s63342_15"/>
+          </nt>
+          <nt id="s63342_508" cat="NX">
+            <edge label="HD" idref="s63342_17"/>
+          </nt>
+          <nt id="s63342_509" cat="NX">
+            <edge label="HD" idref="s63342_18"/>
+          </nt>
+          <nt id="s63342_510" cat="ADVX">
+            <edge label="HD" idref="s63342_19"/>
+          </nt>
+          <nt id="s63342_511" cat="NX">
+            <edge label="-" idref="s63342_21"/>
+            <edge label="HD" idref="s63342_22"/>
+          </nt>
+          <nt id="s63342_512" cat="ADJX">
+            <edge label="HD" idref="s63342_23"/>
+          </nt>
+          <nt id="s63342_513" cat="NX">
+            <edge label="HD" idref="s63342_25"/>
+          </nt>
+          <nt id="s63342_514" cat="NX">
+            <edge label="-" idref="s63342_27"/>
+            <edge label="HD" idref="s63342_28"/>
+          </nt>
+          <nt id="s63342_515" cat="NX=ORG">
+            <edge label="-NE" idref="s63342_29"/>
+            <edge label="HD" idref="s63342_30"/>
+          </nt>
+          <nt id="s63342_516" cat="NX">
+            <edge label="HD" idref="s63342_32"/>
+          </nt>
+          <nt id="s63342_517" cat="VXINF">
+            <edge label="HD" idref="s63342_33"/>
+          </nt>
+          <nt id="s63342_518" cat="VXFIN">
+            <edge label="HD" idref="s63342_34"/>
+          </nt>
+          <nt id="s63342_519" cat="PX">
+            <edge label="-" idref="s63342_1"/>
+            <edge label="HD" idref="s63342_500"/>
+          </nt>
+          <nt id="s63342_520" cat="LK">
+            <edge label="HD" idref="s63342_501"/>
+          </nt>
+          <nt id="s63342_521" cat="MF">
+            <edge label="ON" idref="s63342_502"/>
+          </nt>
+          <nt id="s63342_522" cat="PX">
+            <edge label="-" idref="s63342_11"/>
+            <edge label="HD" idref="s63342_505"/>
+          </nt>
+          <nt id="s63342_523" cat="LK">
+            <edge label="HD" idref="s63342_506"/>
+          </nt>
+          <nt id="s63342_524" cat="MF">
+            <edge label="PRED" idref="s63342_507"/>
+          </nt>
+          <nt id="s63342_525" cat="C">
+            <edge label="ON" idref="s63342_508"/>
+          </nt>
+          <nt id="s63342_526" cat="PX">
+            <edge label="-" idref="s63342_20"/>
+            <edge label="HD" idref="s63342_511"/>
+          </nt>
+          <nt id="s63342_527" cat="NX">
+            <edge label="HD" idref="s63342_514"/>
+            <edge label="-" idref="s63342_515"/>
+          </nt>
+          <nt id="s63342_528" cat="PX">
+            <edge label="-" idref="s63342_31"/>
+            <edge label="HD" idref="s63342_516"/>
+          </nt>
+          <nt id="s63342_529" cat="VC">
+            <edge label="OV" idref="s63342_517"/>
+            <edge label="HD" idref="s63342_518"/>
+          </nt>
+          <nt id="s63342_530" cat="VF">
+            <edge label="FOPP" idref="s63342_519"/>
+          </nt>
+          <nt id="s63342_531" cat="NX">
+            <edge label="HD" idref="s63342_504"/>
+            <edge label="-" idref="s63342_522"/>
+          </nt>
+          <nt id="s63342_532" cat="PX">
+            <edge label="-" idref="s63342_26"/>
+            <edge label="HD" idref="s63342_527"/>
+          </nt>
+          <nt id="s63342_533" cat="NX">
+            <edge label="HD" idref="s63342_503"/>
+            <edge label="-" idref="s63342_531"/>
+          </nt>
+          <nt id="s63342_534" cat="NX">
+            <edge label="HD" idref="s63342_513"/>
+            <edge label="-" idref="s63342_532"/>
+          </nt>
+          <nt id="s63342_535" cat="VF">
+            <edge label="ON" idref="s63342_533"/>
+          </nt>
+          <nt id="s63342_536" cat="PX">
+            <edge label="-" idref="s63342_24"/>
+            <edge label="HD" idref="s63342_534"/>
+          </nt>
+          <nt id="s63342_537" cat="MF">
+            <edge label="OA" idref="s63342_509"/>
+            <edge label="MOD" idref="s63342_510"/>
+            <edge label="V-MOD" idref="s63342_512"/>
+            <edge label="V-MOD" idref="s63342_526"/>
+            <edge label="OPP" idref="s63342_528"/>
+            <edge label="V-MOD" idref="s63342_536"/>
+          </nt>
+          <nt id="s63342_538" cat="R-SIMPX">
+            <edge label="-" idref="s63342_525"/>
+            <edge label="-" idref="s63342_529"/>
+            <edge label="-" idref="s63342_537"/>
+          </nt>
+          <nt id="s63342_539" cat="NF">
+            <edge label="PRED-MOD" idref="s63342_538"/>
+          </nt>
+          <nt id="s63342_540" cat="SIMPX">
+            <edge label="-" idref="s63342_523"/>
+            <edge label="-" idref="s63342_524"/>
+            <edge label="-" idref="s63342_535"/>
+            <edge label="-" idref="s63342_539"/>
+          </nt>
+          <nt id="s63342_541" cat="NF">
+            <edge label="OS" idref="s63342_540"/>
+          </nt>
+          <nt id="s63342_542" cat="SIMPX">
+            <edge label="-" idref="s63342_520"/>
+            <edge label="-" idref="s63342_521"/>
+            <edge label="-" idref="s63342_530"/>
+            <edge label="-" idref="s63342_541"/>
+          </nt>
+          <nt id="s63342_VROOT" cat="VROOT">
+            <edge label="--" idref="s63342_6"/>
+            <edge label="--" idref="s63342_13"/>
+            <edge label="--" idref="s63342_16"/>
+            <edge label="--" idref="s63342_35"/>
+            <edge label="--" idref="s63342_542"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63343">
+      <graph root="s63343_VROOT">
+        <terminals>
+          <t id="s63343_1" word="Die" lemma="die" pos="ART" morph="npf"/>
+          <t id="s63343_2" word="damaligen" lemma="damalig" pos="ADJA" morph="npf"/>
+          <t id="s63343_3" word="Informationen" lemma="Information" pos="NN" morph="npf"/>
+          <t id="s63343_4" word="hätten" lemma="haben%aux" pos="VAFIN" morph="3pkt"/>
+          <t id="s63343_5" word="sich" lemma="#refl" pos="PRF" morph="ap*3"/>
+          <t id="s63343_6" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63343_7" word="Laufe" lemma="Lauf" pos="NN" morph="dsm"/>
+          <t id="s63343_8" word="des" lemma="das" pos="ART" morph="gsn"/>
+          <t id="s63343_9" word="Jahres" lemma="Jahr" pos="NN" morph="gsn"/>
+          <t id="s63343_10" word="allesamt" lemma="allesamt" pos="ADV" morph="--"/>
+          <t id="s63343_11" word="als" lemma="als" pos="KOKOM" morph="--"/>
+          <t id="s63343_12" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63343_13" word="hunderprozentig" lemma="hunderprozentig" pos="ADJD" morph="--"/>
+          <t id="s63343_14" word="richtig" lemma="richtig" pos="ADJD" morph="--"/>
+          <t id="s63343_15" word="&quot;" lemma="&quot;" pos="$(" morph="--"/>
+          <t id="s63343_16" word="erwiesen" lemma="erweisen" pos="VVPP" morph="--"/>
+          <t id="s63343_17" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63343_500" cat="ADJX">
+            <edge label="HD" idref="s63343_2"/>
+          </nt>
+          <nt id="s63343_501" cat="NX">
+            <edge label="-" idref="s63343_1"/>
+            <edge label="HD" idref="s63343_3"/>
+            <edge label="-" idref="s63343_500"/>
+          </nt>
+          <nt id="s63343_502" cat="VF">
+            <edge label="ON" idref="s63343_501"/>
+          </nt>
+          <nt id="s63343_503" cat="VXFIN">
+            <edge label="HD" idref="s63343_4"/>
+          </nt>
+          <nt id="s63343_504" cat="LK">
+            <edge label="HD" idref="s63343_503"/>
+          </nt>
+          <nt id="s63343_505" cat="NX">
+            <edge label="HD" idref="s63343_5"/>
+          </nt>
+          <nt id="s63343_506" cat="NX">
+            <edge label="HD" idref="s63343_7"/>
+          </nt>
+          <nt id="s63343_507" cat="NX">
+            <edge label="-" idref="s63343_8"/>
+            <edge label="HD" idref="s63343_9"/>
+          </nt>
+          <nt id="s63343_508" cat="NX">
+            <edge label="HD" idref="s63343_506"/>
+            <edge label="-" idref="s63343_507"/>
+          </nt>
+          <nt id="s63343_509" cat="PX">
+            <edge label="-" idref="s63343_6"/>
+            <edge label="HD" idref="s63343_508"/>
+          </nt>
+          <nt id="s63343_510" cat="ADVX">
+            <edge label="HD" idref="s63343_10"/>
+          </nt>
+          <nt id="s63343_511" cat="ADJX">
+            <edge label="HD" idref="s63343_13"/>
+          </nt>
+          <nt id="s63343_512" cat="ADJX">
+            <edge label="-" idref="s63343_11"/>
+            <edge label="HD" idref="s63343_14"/>
+            <edge label="-" idref="s63343_511"/>
+          </nt>
+          <nt id="s63343_513" cat="MF">
+            <edge label="OA" idref="s63343_505"/>
+            <edge label="V-MOD" idref="s63343_509"/>
+            <edge label="MOD" idref="s63343_510"/>
+            <edge label="PRED" idref="s63343_512"/>
+          </nt>
+          <nt id="s63343_514" cat="VXINF">
+            <edge label="HD" idref="s63343_16"/>
+          </nt>
+          <nt id="s63343_515" cat="VC">
+            <edge label="OV" idref="s63343_514"/>
+          </nt>
+          <nt id="s63343_516" cat="SIMPX">
+            <edge label="-" idref="s63343_502"/>
+            <edge label="-" idref="s63343_504"/>
+            <edge label="-" idref="s63343_513"/>
+            <edge label="-" idref="s63343_515"/>
+          </nt>
+          <nt id="s63343_VROOT" cat="VROOT">
+            <edge label="--" idref="s63343_12"/>
+            <edge label="--" idref="s63343_15"/>
+            <edge label="--" idref="s63343_17"/>
+            <edge label="--" idref="s63343_516"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63344">
+      <graph root="s63344_503">
+        <terminals>
+          <t id="s63344_1" word="Spitzel" lemma="Spitzel" pos="NN" morph="nsm"/>
+          <t id="s63344_2" word="in" lemma="in" pos="APPR" morph="d"/>
+          <t id="s63344_3" word="Anwaltskanzlei" lemma="Anwaltskanzlei" pos="NN" morph="dsf"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63344_500" cat="NX">
+            <edge label="HD" idref="s63344_1"/>
+          </nt>
+          <nt id="s63344_501" cat="NX">
+            <edge label="HD" idref="s63344_3"/>
+          </nt>
+          <nt id="s63344_502" cat="PX">
+            <edge label="-" idref="s63344_2"/>
+            <edge label="HD" idref="s63344_501"/>
+          </nt>
+          <nt id="s63344_503" cat="NX">
+            <edge label="HD" idref="s63344_500"/>
+            <edge label="-" idref="s63344_502"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63345">
+      <graph root="s63345_VROOT">
+        <terminals>
+          <t id="s63345_1" word="Aufgrund" lemma="aufgrund" pos="APPR" morph="g">
+ </t>
+          <t id="s63345_2" word="der" lemma="die" pos="ART" morph="gpf">
+ </t>
+          <t id="s63345_3" word="neuen" lemma="neu" pos="ADJA" morph="gpf">
+ </t>
+          <t id="s63345_4" word="jetzt" lemma="jetzt" pos="ADV" morph="--">
+ </t>
+          <t id="s63345_5" word="vorliegenden" lemma="vorliegend" pos="ADJA" morph="gpf">
+ </t>
+          <t id="s63345_6" word="Informationen" lemma="Information" pos="NN" morph="gpf">
+ </t>
+          <t id="s63345_7" word="hat" lemma="haben%aux" pos="VAFIN" morph="3sis">
+ </t>
+          <t id="s63345_8" word="die" lemma="die" pos="ART" morph="nsf">
+ </t>
+          <t id="s63345_9" word="AL" lemma="AL" pos="NE" morph="nsf">
+ </t>
+          <t id="s63345_10" word="in" lemma="in" pos="APPR" morph="d">
+ </t>
+          <t id="s63345_11" word="dem" lemma="der" pos="ART" morph="dsm">
+ </t>
+          <t id="s63345_12" word="seit" lemma="seit" pos="APPR" morph="d">
+ </t>
+          <t id="s63345_13" word="Mitte" lemma="Mitte" pos="NN" morph="dsf">
+ </t>
+          <t id="s63345_14" word="Dezember" lemma="Dezember" pos="NN" morph="dsm">
+ </t>
+          <t id="s63345_15" word="tagenden" lemma="tagend" pos="ADJA" morph="dsm">
+ </t>
+          <t id="s63345_16" word="Parlamentarischen" lemma="parlamentarisch" pos="ADJA" morph="dsm">
+ </t>
+          <t id="s63345_17" word="Untersuchungsausschuß" lemma="Untersuchungsausschuß" pos="NN" morph="dsm">
+ </t>
+          <t id="s63345_18" word="zu" lemma="zu" pos="APPR" morph="d">
+ </t>
+          <t id="s63345_19" word="den" lemma="der" pos="ART" morph="dpm">
+ </t>
+          <t id="s63345_20" word="Skandalen" lemma="Skandal" pos="NN" morph="dpm">
+ </t>
+          <t id="s63345_21" word="des" lemma="der" pos="ART" morph="gsm">
+ </t>
+          <t id="s63345_22" word="Verfassungsschutzes" lemma="Verfassungsschutz" pos="NN" morph="gsm">
+ </t>
+          <t id="s63345_23" word="einen" lemma="ein" pos="ART" morph="asm">
+ </t>
+          <t id="s63345_24" word="Beweisantrag" lemma="Beweisantrag" pos="NN" morph="asm">
+ </t>
+          <t id="s63345_25" word="eingebracht" lemma="ein#bringen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63345_26" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63345_27" word="aufgrund" lemma="aufgrund" pos="APPR" morph="g">
+ </t>
+          <t id="s63345_28" word="dessen" lemma="dessen" pos="PRELS" morph="gsm">
+ </t>
+          <t id="s63345_29" word="in" lemma="in" pos="APPR" morph="d">
+ </t>
+          <t id="s63345_30" word="einer" lemma="eine" pos="PIS" morph="dsf">
+ </t>
+          <t id="s63345_31" word="der" lemma="die" pos="ART" morph="gpf">
+ </t>
+          <t id="s63345_32" word="nächsten" lemma="nächst" pos="ADJA" morph="gpf">
+ </t>
+          <t id="s63345_33" word="Sitzungen" lemma="Sitzung" pos="NN" morph="gpf">
+ </t>
+          <t id="s63345_34" word="die" lemma="der" pos="ART" morph="npm">
+ </t>
+          <t id="s63345_35" word="beiden" lemma="beide" pos="PIDAT" morph="npm">
+ </t>
+          <t id="s63345_36" word="Ex-Senatoren" lemma="Ex-Senator" pos="NN" morph="npm">
+ </t>
+          <t id="s63345_37" word="Ulrich" lemma="Ulrich" pos="NE" morph="nsm">
+ </t>
+          <t id="s63345_38" word="und" lemma="und" pos="KON" morph="--">
+ </t>
+          <t id="s63345_39" word="Lummer" lemma="Lummer" pos="NE" morph="nsm">
+ </t>
+          <t id="s63345_40" word="zum" lemma="zu" pos="APPRART" morph="dsn">
+ </t>
+          <t id="s63345_41" word="Thema" lemma="Thema" pos="NN" morph="dsn">
+ </t>
+          <t id="s63345_42" word="taz" lemma="taz" pos="NE" morph="nsf">
+ </t>
+          <t id="s63345_43" word="versus" lemma="versus" pos="APPR" morph="a">
+ </t>
+          <t id="s63345_44" word="VS" lemma="VS" pos="NN" morph="asm">
+ </t>
+          <t id="s63345_45" word="gehört" lemma="hören" pos="VVPP" morph="--">
+ </t>
+          <t id="s63345_46" word="werden" lemma="werden%passiv" pos="VAINF" morph="--">
+ </t>
+          <t id="s63345_47" word="sollen" lemma="sollen%aux" pos="VMFIN" morph="3pis">
+ </t>
+          <t id="s63345_48" word="." lemma="." pos="$." morph="--">
+ </t>
+        </terminals>
+        <nonterminals>
+          <nt id="s63345_500" cat="ADJX">
+            <edge label="HD" idref="s63345_3"/>
+          </nt>
+          <nt id="s63345_501" cat="ADVX">
+            <edge label="HD" idref="s63345_4"/>
+          </nt>
+          <nt id="s63345_502" cat="VXFIN">
+            <edge label="HD" idref="s63345_7"/>
+          </nt>
+          <nt id="s63345_503" cat="NX=ORG">
+            <edge label="-NE" idref="s63345_8"/>
+            <edge label="HD" idref="s63345_9"/>
+          </nt>
+          <nt id="s63345_504" cat="NX">
+            <edge label="HD" idref="s63345_13"/>
+          </nt>
+          <nt id="s63345_505" cat="NX">
+            <edge label="HD" idref="s63345_14"/>
+          </nt>
+          <nt id="s63345_506" cat="ADJX">
+            <edge label="HD" idref="s63345_16"/>
+          </nt>
+          <nt id="s63345_507" cat="NX">
+            <edge label="-" idref="s63345_19"/>
+            <edge label="HD" idref="s63345_20"/>
+          </nt>
+          <nt id="s63345_508" cat="NX">
+            <edge label="-" idref="s63345_21"/>
+            <edge label="HD" idref="s63345_22"/>
+          </nt>
+          <nt id="s63345_509" cat="NX">
+            <edge label="-" idref="s63345_23"/>
+            <edge label="HD" idref="s63345_24"/>
+          </nt>
+          <nt id="s63345_510" cat="VXINF">
+            <edge label="HD" idref="s63345_25"/>
+          </nt>
+          <nt id="s63345_511" cat="NX">
+            <edge label="HD" idref="s63345_28"/>
+          </nt>
+          <nt id="s63345_512" cat="NX">
+            <edge label="HD" idref="s63345_30"/>
+          </nt>
+          <nt id="s63345_513" cat="ADJX">
+            <edge label="HD" idref="s63345_32"/>
+          </nt>
+          <nt id="s63345_514" cat="ADJX">
+            <edge label="HD" idref="s63345_35"/>
+          </nt>
+          <nt id="s63345_515" cat="NX=PER">
+            <edge label="HD" idref="s63345_37"/>
+          </nt>
+          <nt id="s63345_516" cat="NX=PER">
+            <edge label="HD" idref="s63345_39"/>
+          </nt>
+          <nt id="s63345_517" cat="NX">
+            <edge label="HD" idref="s63345_41"/>
+          </nt>
+          <nt id="s63345_518" cat="NX=ORG">
+            <edge label="HD" idref="s63345_42"/>
+          </nt>
+          <nt id="s63345_519" cat="NX">
+            <edge label="HD" idref="s63345_44"/>
+          </nt>
+          <nt id="s63345_520" cat="VXINF">
+            <edge label="HD" idref="s63345_45"/>
+          </nt>
+          <nt id="s63345_521" cat="VXINF">
+            <edge label="HD" idref="s63345_46"/>
+            <secedge label="refvc" idref="s63345_520"/>
+          </nt>
+          <nt id="s63345_522" cat="VXFIN">
+            <edge label="HD" idref="s63345_47"/>
+          </nt>
+          <nt id="s63345_523" cat="ADJX">
+            <edge label="HD" idref="s63345_5"/>
+            <edge label="-" idref="s63345_501"/>
+          </nt>
+          <nt id="s63345_524" cat="LK">
+            <edge label="HD" idref="s63345_502"/>
+          </nt>
+          <nt id="s63345_525" cat="NX">
+            <edge label="HD" idref="s63345_504"/>
+            <edge label="-" idref="s63345_505"/>
+          </nt>
+          <nt id="s63345_526" cat="NX">
+            <edge label="HD" idref="s63345_507"/>
+            <edge label="-" idref="s63345_508"/>
+          </nt>
+          <nt id="s63345_527" cat="VC">
+            <edge label="OV" idref="s63345_510"/>
+          </nt>
+          <nt id="s63345_528" cat="PX">
+            <edge label="-" idref="s63345_27"/>
+            <edge label="HD" idref="s63345_511"/>
+          </nt>
+          <nt id="s63345_529" cat="NX">
+            <edge label="-" idref="s63345_31"/>
+            <edge label="HD" idref="s63345_33"/>
+            <edge label="-" idref="s63345_513"/>
+          </nt>
+          <nt id="s63345_530" cat="NX">
+            <edge label="-" idref="s63345_34"/>
+            <edge label="HD" idref="s63345_36"/>
+            <edge label="-" idref="s63345_514"/>
+          </nt>
+          <nt id="s63345_531" cat="NX">
+            <edge label="-" idref="s63345_38"/>
+            <edge label="KONJ" idref="s63345_515"/>
+            <edge label="KONJ" idref="s63345_516"/>
+          </nt>
+          <nt id="s63345_532" cat="PX">
+            <edge label="-" idref="s63345_43"/>
+            <edge label="HD" idref="s63345_519"/>
+          </nt>
+          <nt id="s63345_533" cat="VC">
+            <edge label="OV" idref="s63345_520"/>
+            <edge label="OV" idref="s63345_521"/>
+            <edge label="HD" idref="s63345_522"/>
+          </nt>
+          <nt id="s63345_534" cat="NX">
+            <edge label="-" idref="s63345_2"/>
+            <edge label="HD" idref="s63345_6"/>
+            <edge label="-" idref="s63345_500"/>
+            <edge label="-" idref="s63345_523"/>
+          </nt>
+          <nt id="s63345_535" cat="PX">
+            <edge label="-" idref="s63345_12"/>
+            <edge label="HD" idref="s63345_525"/>
+          </nt>
+          <nt id="s63345_536" cat="PX">
+            <edge label="-" idref="s63345_18"/>
+            <edge label="HD" idref="s63345_526"/>
+          </nt>
+          <nt id="s63345_537" cat="C">
+            <edge label="V-MOD" idref="s63345_528"/>
+          </nt>
+          <nt id="s63345_538" cat="NX">
+            <edge label="HD" idref="s63345_512"/>
+            <edge label="-" idref="s63345_529"/>
+          </nt>
+          <nt id="s63345_539" cat="NX">
+            <edge label="APP" idref="s63345_530"/>
+            <edge label="APP" idref="s63345_531"/>
+          </nt>
+          <nt id="s63345_540" cat="NX=OTH">
+            <edge label="HD" idref="s63345_518"/>
+            <edge label="-" idref="s63345_532"/>
+          </nt>
+          <nt id="s63345_541" cat="PX">
+            <edge label="-" idref="s63345_1"/>
+            <edge label="HD" idref="s63345_534"/>
+          </nt>
+          <nt id="s63345_542" cat="ADJX">
+            <edge label="HD" idref="s63345_15"/>
+            <edge label="-" idref="s63345_535"/>
+          </nt>
+          <nt id="s63345_543" cat="PX">
+            <edge label="-" idref="s63345_29"/>
+            <edge label="HD" idref="s63345_538"/>
+          </nt>
+          <nt id="s63345_544" cat="NX">
+            <edge label="APP" idref="s63345_517"/>
+            <edge label="APP" idref="s63345_540"/>
+          </nt>
+          <nt id="s63345_545" cat="VF">
+            <edge label="V-MOD" idref="s63345_541"/>
+          </nt>
+          <nt id="s63345_546" cat="NX">
+            <edge label="-" idref="s63345_11"/>
+            <edge label="HD" idref="s63345_17"/>
+            <edge label="-" idref="s63345_506"/>
+            <edge label="-" idref="s63345_542"/>
+          </nt>
+          <nt id="s63345_547" cat="PX">
+            <edge label="-" idref="s63345_40"/>
+            <edge label="HD" idref="s63345_544"/>
+          </nt>
+          <nt id="s63345_548" cat="PX">
+            <edge label="-" idref="s63345_10"/>
+            <edge label="HD" idref="s63345_546"/>
+          </nt>
+          <nt id="s63345_549" cat="MF">
+            <edge label="ON" idref="s63345_539"/>
+            <edge label="V-MOD" idref="s63345_543"/>
+            <edge label="FOPP" idref="s63345_547"/>
+          </nt>
+          <nt id="s63345_550" cat="MF">
+            <edge label="ON" idref="s63345_503"/>
+            <edge label="OA" idref="s63345_509"/>
+            <edge label="OA-MOD" idref="s63345_536"/>
+            <edge label="V-MOD" idref="s63345_548"/>
+          </nt>
+          <nt id="s63345_551" cat="R-SIMPX">
+            <edge label="-" idref="s63345_533"/>
+            <edge label="-" idref="s63345_537"/>
+            <edge label="-" idref="s63345_549"/>
+          </nt>
+          <nt id="s63345_552" cat="NF">
+            <edge label="OA-MOD" idref="s63345_551"/>
+          </nt>
+          <nt id="s63345_553" cat="SIMPX">
+            <edge label="-" idref="s63345_524"/>
+            <edge label="-" idref="s63345_527"/>
+            <edge label="-" idref="s63345_545"/>
+            <edge label="-" idref="s63345_550"/>
+            <edge label="-" idref="s63345_552"/>
+          </nt>
+          <nt id="s63345_VROOT" cat="VROOT">
+            <edge label="--" idref="s63345_26"/>
+            <edge label="--" idref="s63345_48"/>
+            <edge label="--" idref="s63345_553"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63346">
+      <graph root="s63346_VROOT">
+        <terminals>
+          <t id="s63346_1" word="Unterdessen" lemma="unterdessen" pos="ADV" morph="--"/>
+          <t id="s63346_2" word="platzte" lemma="platzen" pos="VVFIN" morph="3sit"/>
+          <t id="s63346_3" word="in" lemma="in" pos="APPR" morph="d"/>
+          <t id="s63346_4" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63346_5" word="letzten" lemma="letzt" pos="ADJA" morph="dsf"/>
+          <t id="s63346_6" word="Woche" lemma="Woche" pos="NN" morph="dsf"/>
+          <t id="s63346_7" word="eine" lemma="eine" pos="ART" morph="nsf"/>
+          <t id="s63346_8" word="weitere" lemma="weiter" pos="ADJA" morph="nsf"/>
+          <t id="s63346_9" word="seit" lemma="seit" pos="APPR" morph="d"/>
+          <t id="s63346_10" word="Jahren" lemma="Jahr" pos="NN" morph="dpn"/>
+          <t id="s63346_11" word="schwärende" lemma="schwärend" pos="ADJA" morph="nsf"/>
+          <t id="s63346_12" word="Eiterbeule" lemma="Eiterbeule" pos="NN" morph="nsf"/>
+          <t id="s63346_13" word="des" lemma="der" pos="ART" morph="gsm"/>
+          <t id="s63346_14" word="Berliner" lemma="Berliner" pos="ADJA" morph="***"/>
+          <t id="s63346_15" word="Verfassungsschutzes" lemma="Verfassungsschutz" pos="NN" morph="gsm"/>
+          <t id="s63346_16" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63346_500" cat="ADVX">
+            <edge label="HD" idref="s63346_1"/>
+          </nt>
+          <nt id="s63346_501" cat="VXFIN">
+            <edge label="HD" idref="s63346_2"/>
+          </nt>
+          <nt id="s63346_502" cat="ADJX">
+            <edge label="HD" idref="s63346_5"/>
+          </nt>
+          <nt id="s63346_503" cat="ADJX">
+            <edge label="HD" idref="s63346_8"/>
+          </nt>
+          <nt id="s63346_504" cat="NX">
+            <edge label="HD" idref="s63346_10"/>
+          </nt>
+          <nt id="s63346_505" cat="ADJX">
+            <edge label="HD" idref="s63346_14"/>
+          </nt>
+          <nt id="s63346_506" cat="VF">
+            <edge label="MOD" idref="s63346_500"/>
+          </nt>
+          <nt id="s63346_507" cat="LK">
+            <edge label="HD" idref="s63346_501"/>
+          </nt>
+          <nt id="s63346_508" cat="NX">
+            <edge label="-" idref="s63346_4"/>
+            <edge label="HD" idref="s63346_6"/>
+            <edge label="-" idref="s63346_502"/>
+          </nt>
+          <nt id="s63346_509" cat="PX">
+            <edge label="-" idref="s63346_9"/>
+            <edge label="HD" idref="s63346_504"/>
+          </nt>
+          <nt id="s63346_510" cat="NX">
+            <edge label="-" idref="s63346_13"/>
+            <edge label="HD" idref="s63346_15"/>
+            <edge label="-" idref="s63346_505"/>
+          </nt>
+          <nt id="s63346_511" cat="PX">
+            <edge label="-" idref="s63346_3"/>
+            <edge label="HD" idref="s63346_508"/>
+          </nt>
+          <nt id="s63346_512" cat="ADJX">
+            <edge label="HD" idref="s63346_11"/>
+            <edge label="-" idref="s63346_509"/>
+          </nt>
+          <nt id="s63346_513" cat="NX">
+            <edge label="-" idref="s63346_7"/>
+            <edge label="HD" idref="s63346_12"/>
+            <edge label="-" idref="s63346_503"/>
+            <edge label="-" idref="s63346_512"/>
+          </nt>
+          <nt id="s63346_514" cat="NX">
+            <edge label="-" idref="s63346_510"/>
+            <edge label="HD" idref="s63346_513"/>
+          </nt>
+          <nt id="s63346_515" cat="MF">
+            <edge label="V-MOD" idref="s63346_511"/>
+            <edge label="ON" idref="s63346_514"/>
+          </nt>
+          <nt id="s63346_516" cat="SIMPX">
+            <edge label="-" idref="s63346_506"/>
+            <edge label="-" idref="s63346_507"/>
+            <edge label="-" idref="s63346_515"/>
+          </nt>
+          <nt id="s63346_VROOT" cat="VROOT">
+            <edge label="--" idref="s63346_16"/>
+            <edge label="--" idref="s63346_516"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63347">
+      <graph root="s63347_VROOT">
+        <terminals>
+          <t id="s63347_1" word="Mitglieder" lemma="Mitglied" pos="NN" morph="npn"/>
+          <t id="s63347_2" word="des" lemma="der" pos="ART" morph="gsm"/>
+          <t id="s63347_3" word="Vorstandes" lemma="Vorstand" pos="NN" morph="gsm"/>
+          <t id="s63347_4" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63347_5" word="Berliner" lemma="Berliner" pos="ADJA" morph="***"/>
+          <t id="s63347_6" word="Anwaltkammer" lemma="Anwaltkammer" pos="NN" morph="gsf"/>
+          <t id="s63347_7" word="machten" lemma="bekannt#machen" pos="VVFIN" morph="3pit"/>
+          <t id="s63347_8" word="bekannt" lemma="--" pos="PTKVZ" morph="--"/>
+          <t id="s63347_9" word="," lemma="," pos="$," morph="--"/>
+          <t id="s63347_10" word="daß" lemma="daß" pos="KOUS" morph="--"/>
+          <t id="s63347_11" word="Innensenator" lemma="Innensenator" pos="NN" morph="nsm"/>
+          <t id="s63347_12" word="Kewenig" lemma="Kewenig" pos="NE" morph="nsm"/>
+          <t id="s63347_13" word="im" lemma="in" pos="APPRART" morph="dsm"/>
+          <t id="s63347_14" word="Mai" lemma="Mai" pos="NN" morph="dsm"/>
+          <t id="s63347_15" word="dieses" lemma="dieses" pos="PDAT" morph="gsn"/>
+          <t id="s63347_16" word="Jahres" lemma="Jahr" pos="NN" morph="gsn"/>
+          <t id="s63347_17" word="gegenüber" lemma="gegenüber" pos="APPR" morph="d"/>
+          <t id="s63347_18" word="Kammerpräsident" lemma="Kammerpräsident" pos="NN" morph="dsm"/>
+          <t id="s63347_19" word="Borck" lemma="Borck" pos="NE" morph="dsm"/>
+          <t id="s63347_20" word="vertraulich" lemma="vertraulich" pos="ADJD" morph="--"/>
+          <t id="s63347_21" word="den" lemma="der" pos="ART" morph="asm"/>
+          <t id="s63347_22" word="Einsatz" lemma="Einsatz" pos="NN" morph="asm"/>
+          <t id="s63347_23" word="eines" lemma="ein" pos="ART" morph="gsm"/>
+          <t id="s63347_24" word="V-Mannes" lemma="V-Mann" pos="NN" morph="gsm"/>
+          <t id="s63347_25" word="im" lemma="in" pos="APPRART" morph="dsn"/>
+          <t id="s63347_26" word="Büro" lemma="Büro" pos="NN" morph="dsn"/>
+          <t id="s63347_27" word="des" lemma="der" pos="ART" morph="gsm"/>
+          <t id="s63347_28" word="Rechtsanwaltes" lemma="Rechtsanwalt" pos="NN" morph="gsm"/>
+          <t id="s63347_29" word="Heinisch" lemma="Heinisch" pos="NE" morph="gsm"/>
+          <t id="s63347_30" word="zugegeben" lemma="zu#geben" pos="VVPP" morph="--"/>
+          <t id="s63347_31" word="hatte" lemma="haben%aux" pos="VAFIN" morph="3sit"/>
+          <t id="s63347_32" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63347_500" cat="NX">
+            <edge label="HD" idref="s63347_1"/>
+          </nt>
+          <nt id="s63347_501" cat="NX">
+            <edge label="-" idref="s63347_2"/>
+            <edge label="HD" idref="s63347_3"/>
+          </nt>
+          <nt id="s63347_502" cat="ADJX">
+            <edge label="HD" idref="s63347_5"/>
+          </nt>
+          <nt id="s63347_503" cat="VXFIN">
+            <edge label="HD" idref="s63347_7"/>
+          </nt>
+          <nt id="s63347_504" cat="VC">
+            <edge label="VPT" idref="s63347_8"/>
+          </nt>
+          <nt id="s63347_505" cat="C">
+            <edge label="-" idref="s63347_10"/>
+          </nt>
+          <nt id="s63347_506" cat="NX">
+            <edge label="HD" idref="s63347_11"/>
+          </nt>
+          <nt id="s63347_507" cat="NX=PER">
+            <edge label="HD" idref="s63347_12"/>
+          </nt>
+          <nt id="s63347_508" cat="NX">
+            <edge label="HD" idref="s63347_14"/>
+          </nt>
+          <nt id="s63347_509" cat="NX">
+            <edge label="-" idref="s63347_15"/>
+            <edge label="HD" idref="s63347_16"/>
+          </nt>
+          <nt id="s63347_510" cat="NX">
+            <edge label="HD" idref="s63347_18"/>
+          </nt>
+          <nt id="s63347_511" cat="NX=PER">
+            <edge label="HD" idref="s63347_19"/>
+          </nt>
+          <nt id="s63347_512" cat="ADJX">
+            <edge label="HD" idref="s63347_20"/>
+          </nt>
+          <nt id="s63347_513" cat="NX">
+            <edge label="-" idref="s63347_21"/>
+            <edge label="HD" idref="s63347_22"/>
+          </nt>
+          <nt id="s63347_514" cat="NX">
+            <edge label="-" idref="s63347_23"/>
+            <edge label="HD" idref="s63347_24"/>
+          </nt>
+          <nt id="s63347_515" cat="NX">
+            <edge label="HD" idref="s63347_26"/>
+          </nt>
+          <nt id="s63347_516" cat="NX">
+            <edge label="-" idref="s63347_27"/>
+            <edge label="HD" idref="s63347_28"/>
+          </nt>
+          <nt id="s63347_517" cat="NX=PER">
+            <edge label="HD" idref="s63347_29"/>
+          </nt>
+          <nt id="s63347_518" cat="VXINF">
+            <edge label="HD" idref="s63347_30"/>
+          </nt>
+          <nt id="s63347_519" cat="VXFIN">
+            <edge label="HD" idref="s63347_31"/>
+          </nt>
+          <nt id="s63347_520" cat="NX">
+            <edge label="HD" idref="s63347_500"/>
+            <edge label="-" idref="s63347_501"/>
+          </nt>
+          <nt id="s63347_521" cat="NX">
+            <edge label="-" idref="s63347_4"/>
+            <edge label="HD" idref="s63347_6"/>
+            <edge label="-" idref="s63347_502"/>
+          </nt>
+          <nt id="s63347_522" cat="LK">
+            <edge label="HD" idref="s63347_503"/>
+          </nt>
+          <nt id="s63347_523" cat="NX">
+            <edge label="APP" idref="s63347_506"/>
+            <edge label="APP" idref="s63347_507"/>
+          </nt>
+          <nt id="s63347_524" cat="NX">
+            <edge label="HD" idref="s63347_508"/>
+            <edge label="-" idref="s63347_509"/>
+          </nt>
+          <nt id="s63347_525" cat="NX">
+            <edge label="APP" idref="s63347_510"/>
+            <edge label="APP" idref="s63347_511"/>
+          </nt>
+          <nt id="s63347_526" cat="NX">
+            <edge label="APP" idref="s63347_516"/>
+            <edge label="APP" idref="s63347_517"/>
+          </nt>
+          <nt id="s63347_527" cat="VC">
+            <edge label="OV" idref="s63347_518"/>
+            <edge label="HD" idref="s63347_519"/>
+          </nt>
+          <nt id="s63347_528" cat="NX">
+            <edge label="HD" idref="s63347_520"/>
+            <edge label="-" idref="s63347_521"/>
+          </nt>
+          <nt id="s63347_529" cat="PX">
+            <edge label="-" idref="s63347_13"/>
+            <edge label="HD" idref="s63347_524"/>
+          </nt>
+          <nt id="s63347_530" cat="PX">
+            <edge label="-" idref="s63347_17"/>
+            <edge label="HD" idref="s63347_525"/>
+          </nt>
+          <nt id="s63347_531" cat="NX">
+            <edge label="HD" idref="s63347_515"/>
+            <edge label="-" idref="s63347_526"/>
+          </nt>
+          <nt id="s63347_532" cat="VF">
+            <edge label="ON" idref="s63347_528"/>
+          </nt>
+          <nt id="s63347_533" cat="PX">
+            <edge label="-" idref="s63347_25"/>
+            <edge label="HD" idref="s63347_531"/>
+          </nt>
+          <nt id="s63347_534" cat="NX">
+            <edge label="HD" idref="s63347_514"/>
+            <edge label="-" idref="s63347_533"/>
+          </nt>
+          <nt id="s63347_535" cat="NX">
+            <edge label="HD" idref="s63347_513"/>
+            <edge label="-" idref="s63347_534"/>
+          </nt>
+          <nt id="s63347_536" cat="MF">
+            <edge label="V-MOD" idref="s63347_512"/>
+            <edge label="ON" idref="s63347_523"/>
+            <edge label="V-MOD" idref="s63347_529"/>
+            <edge label="V-MOD" idref="s63347_530"/>
+            <edge label="OA" idref="s63347_535"/>
+          </nt>
+          <nt id="s63347_537" cat="SIMPX">
+            <edge label="-" idref="s63347_505"/>
+            <edge label="-" idref="s63347_527"/>
+            <edge label="-" idref="s63347_536"/>
+          </nt>
+          <nt id="s63347_538" cat="NF">
+            <edge label="OS" idref="s63347_537"/>
+          </nt>
+          <nt id="s63347_539" cat="SIMPX">
+            <edge label="-" idref="s63347_504"/>
+            <edge label="-" idref="s63347_522"/>
+            <edge label="-" idref="s63347_532"/>
+            <edge label="-" idref="s63347_538"/>
+          </nt>
+          <nt id="s63347_VROOT" cat="VROOT">
+            <edge label="--" idref="s63347_9"/>
+            <edge label="--" idref="s63347_32"/>
+            <edge label="--" idref="s63347_539"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63348">
+      <graph root="s63348_VROOT">
+        <terminals>
+          <t id="s63348_1" word="Heinisch" lemma="Heinisch" pos="NE" morph="nsm"/>
+          <t id="s63348_2" word="ist" lemma="sein" pos="VAFIN" morph="3sis"/>
+          <t id="s63348_3" word="der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63348_4" word="Verteidiger" lemma="Verteidiger" pos="NN" morph="nsm"/>
+          <t id="s63348_5" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63348_6" word="Hauptangeklagten" lemma="Hauptangeklagte" pos="NN" morph="gsf"/>
+          <t id="s63348_7" word="Ilse" lemma="Ilse" pos="NE" morph="gsf"/>
+          <t id="s63348_8" word="Schwipper" lemma="Schwipper" pos="NE" morph="gsf"/>
+          <t id="s63348_9" word="im" lemma="in" pos="APPRART" morph="dsn"/>
+          <t id="s63348_10" word="Schmücker" lemma="Schmücker" pos="NE" morph="dsm"/>
+          <t id="s63348_11" word="Verfahren" lemma="Verfahren" pos="NN" morph="dsn"/>
+          <t id="s63348_12" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63348_500" cat="NX=PER">
+            <edge label="HD" idref="s63348_1"/>
+          </nt>
+          <nt id="s63348_501" cat="VXFIN">
+            <edge label="HD" idref="s63348_2"/>
+          </nt>
+          <nt id="s63348_502" cat="NX">
+            <edge label="-" idref="s63348_3"/>
+            <edge label="HD" idref="s63348_4"/>
+          </nt>
+          <nt id="s63348_503" cat="NX">
+            <edge label="-" idref="s63348_5"/>
+            <edge label="HD" idref="s63348_6"/>
+          </nt>
+          <nt id="s63348_504" cat="NX=PER">
+            <edge label="-" idref="s63348_7"/>
+            <edge label="-" idref="s63348_8"/>
+          </nt>
+          <nt id="s63348_505" cat="NX=PER">
+            <edge label="HD" idref="s63348_10"/>
+          </nt>
+          <nt id="s63348_506" cat="VF">
+            <edge label="ON" idref="s63348_500"/>
+          </nt>
+          <nt id="s63348_507" cat="LK">
+            <edge label="HD" idref="s63348_501"/>
+          </nt>
+          <nt id="s63348_508" cat="NX">
+            <edge label="APP" idref="s63348_503"/>
+            <edge label="APP" idref="s63348_504"/>
+          </nt>
+          <nt id="s63348_509" cat="NX">
+            <edge label="HD" idref="s63348_11"/>
+            <edge label="-" idref="s63348_505"/>
+          </nt>
+          <nt id="s63348_510" cat="NX">
+            <edge label="HD" idref="s63348_502"/>
+            <edge label="-" idref="s63348_508"/>
+          </nt>
+          <nt id="s63348_511" cat="PX">
+            <edge label="-" idref="s63348_9"/>
+            <edge label="HD" idref="s63348_509"/>
+          </nt>
+          <nt id="s63348_512" cat="MF">
+            <edge label="PRED" idref="s63348_510"/>
+            <edge label="MOD" idref="s63348_511"/>
+          </nt>
+          <nt id="s63348_513" cat="SIMPX">
+            <edge label="-" idref="s63348_506"/>
+            <edge label="-" idref="s63348_507"/>
+            <edge label="-" idref="s63348_512"/>
+          </nt>
+          <nt id="s63348_VROOT" cat="VROOT">
+            <edge label="--" idref="s63348_12"/>
+            <edge label="--" idref="s63348_513"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63349">
+      <graph root="s63349_VROOT">
+        <terminals>
+          <t id="s63349_1" word="Der" lemma="der" pos="ART" morph="nsm"/>
+          <t id="s63349_2" word="V-Mann" lemma="V-Mann" pos="NN" morph="nsm"/>
+          <t id="s63349_3" word="war" lemma="sein" pos="VAFIN" morph="3sit"/>
+          <t id="s63349_4" word="nach" lemma="nach" pos="APPR" morph="d"/>
+          <t id="s63349_5" word="den" lemma="die" pos="ART" morph="dpf"/>
+          <t id="s63349_6" word="Angaben" lemma="Angabe" pos="NN" morph="dpf"/>
+          <t id="s63349_7" word="aus" lemma="aus" pos="APPR" morph="d"/>
+          <t id="s63349_8" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63349_9" word="Kammer" lemma="Kammer" pos="NN" morph="dsf"/>
+          <t id="s63349_10" word="während" lemma="während" pos="APPR" morph="d"/>
+          <t id="s63349_11" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63349_12" word="ersten" lemma="erst" pos="ADJA" morph="dsf"/>
+          <t id="s63349_13" word="Hauptverhandlung" lemma="Hauptverhandlung" pos="NN" morph="dsf"/>
+          <t id="s63349_14" word="als" lemma="als" pos="KOKOM" morph="--"/>
+          <t id="s63349_15" word="Anwaltsgehilfe" lemma="Anwaltsgehilfe" pos="NN" morph="nsm"/>
+          <t id="s63349_16" word="im" lemma="in" pos="APPRART" morph="dsn"/>
+          <t id="s63349_17" word="Heinisch-Büro" lemma="Heinisch-Büro" pos="NN" morph="dsn"/>
+          <t id="s63349_18" word="und" lemma="und" pos="KON" morph="--"/>
+          <t id="s63349_19" word="lieferte" lemma="liefern" pos="VVFIN" morph="3sit"/>
+          <t id="s63349_20" word="von" lemma="von" pos="APPR" morph="d"/>
+          <t id="s63349_21" word="dort" lemma="dort" pos="ADV" morph="--"/>
+          <t id="s63349_22" word="der" lemma="die" pos="ART" morph="dsf"/>
+          <t id="s63349_23" word="Anklage" lemma="Anklage" pos="NN" morph="dsf"/>
+          <t id="s63349_24" word="den" lemma="der" pos="ART" morph="asm"/>
+          <t id="s63349_25" word="Erkenntnisstand" lemma="Erkenntnisstand" pos="NN" morph="asm"/>
+          <t id="s63349_26" word="der" lemma="die" pos="ART" morph="gsf"/>
+          <t id="s63349_27" word="Verteidigung" lemma="Verteidigung" pos="NN" morph="gsf"/>
+          <t id="s63349_28" word="." lemma="." pos="$." morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63349_500" cat="NX">
+            <edge label="-" idref="s63349_1"/>
+            <edge label="HD" idref="s63349_2"/>
+          </nt>
+          <nt id="s63349_501" cat="VXFIN">
+            <edge label="HD" idref="s63349_3"/>
+          </nt>
+          <nt id="s63349_502" cat="NX">
+            <edge label="-" idref="s63349_5"/>
+            <edge label="HD" idref="s63349_6"/>
+          </nt>
+          <nt id="s63349_503" cat="NX">
+            <edge label="-" idref="s63349_8"/>
+            <edge label="HD" idref="s63349_9"/>
+          </nt>
+          <nt id="s63349_504" cat="ADJX">
+            <edge label="HD" idref="s63349_12"/>
+          </nt>
+          <nt id="s63349_505" cat="NX">
+            <edge label="-" idref="s63349_14"/>
+            <edge label="HD" idref="s63349_15"/>
+          </nt>
+          <nt id="s63349_506" cat="NX">
+            <edge label="HD" idref="s63349_17"/>
+          </nt>
+          <nt id="s63349_507" cat="VXFIN">
+            <edge label="HD" idref="s63349_19"/>
+          </nt>
+          <nt id="s63349_508" cat="ADVX">
+            <edge label="HD" idref="s63349_21"/>
+          </nt>
+          <nt id="s63349_509" cat="NX">
+            <edge label="-" idref="s63349_22"/>
+            <edge label="HD" idref="s63349_23"/>
+          </nt>
+          <nt id="s63349_510" cat="NX">
+            <edge label="-" idref="s63349_24"/>
+            <edge label="HD" idref="s63349_25"/>
+          </nt>
+          <nt id="s63349_511" cat="NX">
+            <edge label="-" idref="s63349_26"/>
+            <edge label="HD" idref="s63349_27"/>
+          </nt>
+          <nt id="s63349_512" cat="VF">
+            <edge label="ON" idref="s63349_500"/>
+          </nt>
+          <nt id="s63349_513" cat="LK">
+            <edge label="HD" idref="s63349_501"/>
+          </nt>
+          <nt id="s63349_514" cat="PX">
+            <edge label="-" idref="s63349_7"/>
+            <edge label="HD" idref="s63349_503"/>
+          </nt>
+          <nt id="s63349_515" cat="NX">
+            <edge label="-" idref="s63349_11"/>
+            <edge label="HD" idref="s63349_13"/>
+            <edge label="-" idref="s63349_504"/>
+          </nt>
+          <nt id="s63349_516" cat="PX">
+            <edge label="-" idref="s63349_16"/>
+            <edge label="HD" idref="s63349_506"/>
+          </nt>
+          <nt id="s63349_517" cat="LK">
+            <edge label="HD" idref="s63349_507"/>
+          </nt>
+          <nt id="s63349_518" cat="PX">
+            <edge label="-" idref="s63349_20"/>
+            <edge label="HD" idref="s63349_508"/>
+          </nt>
+          <nt id="s63349_519" cat="NX">
+            <edge label="HD" idref="s63349_510"/>
+            <edge label="-" idref="s63349_511"/>
+          </nt>
+          <nt id="s63349_520" cat="NX">
+            <edge label="HD" idref="s63349_502"/>
+            <edge label="-" idref="s63349_514"/>
+          </nt>
+          <nt id="s63349_521" cat="PX">
+            <edge label="-" idref="s63349_10"/>
+            <edge label="HD" idref="s63349_515"/>
+          </nt>
+          <nt id="s63349_522" cat="MF">
+            <edge label="OD" idref="s63349_509"/>
+            <edge label="V-MOD" idref="s63349_518"/>
+            <edge label="OA" idref="s63349_519"/>
+          </nt>
+          <nt id="s63349_523" cat="PX">
+            <edge label="-" idref="s63349_4"/>
+            <edge label="HD" idref="s63349_520"/>
+          </nt>
+          <nt id="s63349_524" cat="FKONJ">
+            <edge label="-" idref="s63349_517"/>
+            <edge label="-" idref="s63349_522"/>
+          </nt>
+          <nt id="s63349_525" cat="MF">
+            <edge label="ON-MOD" idref="s63349_505"/>
+            <edge label="PRED" idref="s63349_516"/>
+            <edge label="V-MOD" idref="s63349_521"/>
+            <edge label="MOD" idref="s63349_523"/>
+          </nt>
+          <nt id="s63349_526" cat="FKONJ">
+            <edge label="-" idref="s63349_513"/>
+            <edge label="-" idref="s63349_525"/>
+          </nt>
+          <nt id="s63349_527" cat="FKOORD">
+            <edge label="-" idref="s63349_18"/>
+            <edge label="KONJ" idref="s63349_524"/>
+            <edge label="KONJ" idref="s63349_526"/>
+          </nt>
+          <nt id="s63349_528" cat="SIMPX">
+            <edge label="-" idref="s63349_512"/>
+            <edge label="-" idref="s63349_527"/>
+          </nt>
+          <nt id="s63349_VROOT" cat="VROOT">
+            <edge label="--" idref="s63349_28"/>
+            <edge label="--" idref="s63349_528"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63350">
+      <graph root="s63350_VROOT">
+        <terminals>
+          <t id="s63350_1" word="Das" lemma="das" pos="ART" morph="nsn">
+ </t>
+          <t id="s63350_2" word="Interesse" lemma="Interesse" pos="NN" morph="nsn">
+ </t>
+          <t id="s63350_3" word="des" lemma="der" pos="ART" morph="gsm">
+ </t>
+          <t id="s63350_4" word="Verfassungsschutzes" lemma="Verfassungsschutz" pos="NN" morph="gsm">
+ </t>
+          <t id="s63350_5" word="an" lemma="an" pos="APPR" morph="d">
+ </t>
+          <t id="s63350_6" word="dem" lemma="das" pos="ART" morph="dsn">
+ </t>
+          <t id="s63350_7" word="Verfahren" lemma="Verfahren" pos="NN" morph="dsn">
+ </t>
+          <t id="s63350_8" word="ist" lemma="sein" pos="VAFIN" morph="3sis">
+ </t>
+          <t id="s63350_9" word="deshalb" lemma="deshalb" pos="PROP" morph="--">
+ </t>
+          <t id="s63350_10" word="so" lemma="so" pos="ADV" morph="--">
+ </t>
+          <t id="s63350_11" word="groß" lemma="groß" pos="ADJD" morph="--">
+ </t>
+          <t id="s63350_12" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63350_13" word="weil" lemma="weil" pos="KOUS" morph="--">
+ </t>
+          <t id="s63350_14" word="mehrere" lemma="mehrere" pos="PIAT" morph="np*">
+ </t>
+          <t id="s63350_15" word="V-Leute" lemma="V-Leute" pos="NN" morph="np*">
+ </t>
+          <t id="s63350_16" word="des" lemma="das" pos="ART" morph="gsn">
+ </t>
+          <t id="s63350_17" word="Amtes" lemma="Amt" pos="NN" morph="gsn">
+ </t>
+          <t id="s63350_18" word="in" lemma="in" pos="APPR" morph="a">
+ </t>
+          <t id="s63350_19" word="die" lemma="die" pos="ART" morph="asf">
+ </t>
+          <t id="s63350_20" word="Gruppe" lemma="Gruppe" pos="NN" morph="asf">
+ </t>
+          <t id="s63350_21" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63350_22" word="die" lemma="die" pos="PRELS" morph="nsf">
+ </t>
+          <t id="s63350_23" word="den" lemma="der" pos="ART" morph="asm">
+ </t>
+          <t id="s63350_24" word="Fememord" lemma="Fememord" pos="NN" morph="asm">
+ </t>
+          <t id="s63350_25" word="an" lemma="an" pos="APPR" morph="d">
+ </t>
+          <t id="s63350_26" word="Ulrich" lemma="Ulrich" pos="NE" morph="dsm">
+ </t>
+          <t id="s63350_27" word="Schmücker" lemma="Schmücker" pos="NE" morph="dsm">
+ </t>
+          <t id="s63350_28" word="begangen" lemma="begehen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63350_29" word="haben" lemma="haben%aux" pos="VAINF" morph="--">
+ </t>
+          <t id="s63350_30" word="soll" lemma="sollen%aux" pos="VMFIN" morph="3sis">
+ </t>
+          <t id="s63350_31" word="," lemma="," pos="$," morph="--">
+ </t>
+          <t id="s63350_32" word="eingeschleust" lemma="ein#schleusen" pos="VVPP" morph="--">
+ </t>
+          <t id="s63350_33" word="waren" lemma="sein%aux" pos="VAFIN" morph="3pit">
+ </t>
+          <t id="s63350_34" word="." lemma="." pos="$." morph="--">
+ </t>
+        </terminals>
+        <nonterminals>
+          <nt id="s63350_500" cat="NX">
+            <edge label="-" idref="s63350_1"/>
+            <edge label="HD" idref="s63350_2"/>
+          </nt>
+          <nt id="s63350_501" cat="NX">
+            <edge label="-" idref="s63350_3"/>
+            <edge label="HD" idref="s63350_4"/>
+          </nt>
+          <nt id="s63350_502" cat="NX">
+            <edge label="-" idref="s63350_6"/>
+            <edge label="HD" idref="s63350_7"/>
+          </nt>
+          <nt id="s63350_503" cat="VXFIN">
+            <edge label="HD" idref="s63350_8"/>
+          </nt>
+          <nt id="s63350_504" cat="PX">
+            <edge label="HD" idref="s63350_9"/>
+          </nt>
+          <nt id="s63350_505" cat="ADVX">
+            <edge label="HD" idref="s63350_10"/>
+          </nt>
+          <nt id="s63350_506" cat="C">
+            <edge label="-" idref="s63350_13"/>
+          </nt>
+          <nt id="s63350_507" cat="NX">
+            <edge label="-" idref="s63350_14"/>
+            <edge label="HD" idref="s63350_15"/>
+          </nt>
+          <nt id="s63350_508" cat="NX">
+            <edge label="-" idref="s63350_16"/>
+            <edge label="HD" idref="s63350_17"/>
+          </nt>
+          <nt id="s63350_509" cat="NX">
+            <edge label="-" idref="s63350_19"/>
+            <edge label="HD" idref="s63350_20"/>
+          </nt>
+          <nt id="s63350_510" cat="NX">
+            <edge label="HD" idref="s63350_22"/>
+          </nt>
+          <nt id="s63350_511" cat="NX">
+            <edge label="-" idref="s63350_23"/>
+            <edge label="HD" idref="s63350_24"/>
+          </nt>
+          <nt id="s63350_512" cat="NX=PER">
+            <edge label="-" idref="s63350_26"/>
+            <edge label="-" idref="s63350_27"/>
+          </nt>
+          <nt id="s63350_513" cat="VXINF">
+            <edge label="HD" idref="s63350_28"/>
+          </nt>
+          <nt id="s63350_514" cat="VXINF">
+            <edge label="HD" idref="s63350_29"/>
+            <secedge label="refvc" idref="s63350_513"/>
+          </nt>
+          <nt id="s63350_515" cat="VXFIN">
+            <edge label="HD" idref="s63350_30"/>
+          </nt>
+          <nt id="s63350_516" cat="VXINF">
+            <edge label="HD" idref="s63350_32"/>
+          </nt>
+          <nt id="s63350_517" cat="VXFIN">
+            <edge label="HD" idref="s63350_33"/>
+          </nt>
+          <nt id="s63350_518" cat="NX">
+            <edge label="HD" idref="s63350_500"/>
+            <edge label="-" idref="s63350_501"/>
+          </nt>
+          <nt id="s63350_519" cat="PX">
+            <edge label="-" idref="s63350_5"/>
+            <edge label="HD" idref="s63350_502"/>
+          </nt>
+          <nt id="s63350_520" cat="LK">
+            <edge label="HD" idref="s63350_503"/>
+          </nt>
+          <nt id="s63350_521" cat="ADJX">
+            <edge label="HD" idref="s63350_11"/>
+            <edge label="-" idref="s63350_505"/>
+          </nt>
+          <nt id="s63350_522" cat="NX">
+            <edge label="HD" idref="s63350_507"/>
+            <edge label="-" idref="s63350_508"/>
+          </nt>
+          <nt id="s63350_523" cat="C">
+            <edge label="ON" idref="s63350_510"/>
+          </nt>
+          <nt id="s63350_524" cat="PX">
+            <edge label="-" idref="s63350_25"/>
+            <edge label="HD" idref="s63350_512"/>
+          </nt>
+          <nt id="s63350_525" cat="VC">
+            <edge label="OV" idref="s63350_513"/>
+            <edge label="OV" idref="s63350_514"/>
+            <edge label="HD" idref="s63350_515"/>
+          </nt>
+          <nt id="s63350_526" cat="VC">
+            <edge label="OV" idref="s63350_516"/>
+            <edge label="HD" idref="s63350_517"/>
+          </nt>
+          <nt id="s63350_527" cat="NX">
+            <edge label="HD" idref="s63350_518"/>
+            <edge label="-" idref="s63350_519"/>
+          </nt>
+          <nt id="s63350_528" cat="MF">
+            <edge label="V-MOD" idref="s63350_504"/>
+            <edge label="PRED" idref="s63350_521"/>
+          </nt>
+          <nt id="s63350_529" cat="NX">
+            <edge label="HD" idref="s63350_511"/>
+            <edge label="-" idref="s63350_524"/>
+          </nt>
+          <nt id="s63350_530" cat="VF">
+            <edge label="ON" idref="s63350_527"/>
+          </nt>
+          <nt id="s63350_531" cat="MF">
+            <edge label="OA" idref="s63350_529"/>
+          </nt>
+          <nt id="s63350_532" cat="R-SIMPX">
+            <edge label="-" idref="s63350_523"/>
+            <edge label="-" idref="s63350_525"/>
+            <edge label="-" idref="s63350_531"/>
+          </nt>
+          <nt id="s63350_533" cat="NX">
+            <edge label="HD" idref="s63350_509"/>
+            <edge label="-" idref="s63350_532"/>
+          </nt>
+          <nt id="s63350_534" cat="PX">
+            <edge label="-" idref="s63350_18"/>
+            <edge label="HD" idref="s63350_533"/>
+          </nt>
+          <nt id="s63350_535" cat="MF">
+            <edge label="ON" idref="s63350_522"/>
+            <edge label="FOPP" idref="s63350_534"/>
+          </nt>
+          <nt id="s63350_536" cat="SIMPX">
+            <edge label="-" idref="s63350_506"/>
+            <edge label="-" idref="s63350_526"/>
+            <edge label="-" idref="s63350_535"/>
+          </nt>
+          <nt id="s63350_537" cat="NF">
+            <edge label="MOD" idref="s63350_536"/>
+          </nt>
+          <nt id="s63350_538" cat="SIMPX">
+            <edge label="-" idref="s63350_520"/>
+            <edge label="-" idref="s63350_528"/>
+            <edge label="-" idref="s63350_530"/>
+            <edge label="-" idref="s63350_537"/>
+          </nt>
+          <nt id="s63350_VROOT" cat="VROOT">
+            <edge label="--" idref="s63350_12"/>
+            <edge label="--" idref="s63350_21"/>
+            <edge label="--" idref="s63350_31"/>
+            <edge label="--" idref="s63350_34"/>
+            <edge label="--" idref="s63350_538"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+    <s id="s63351">
+      <graph root="s63351_VROOT">
+        <terminals>
+          <t id="s63351_1" word="JG" lemma="JG" pos="NE" morph="ns*"/>
+          <t id="s63351_2" word="Tagesthema" lemma="Tagesthema" pos="NN" morph="nsn"/>
+          <t id="s63351_3" word="auf" lemma="auf" pos="APPR" morph="d"/>
+          <t id="s63351_4" word="Seite" lemma="Seite" pos="NN" morph="dsf"/>
+          <t id="s63351_5" word="3" lemma="3" pos="CARD" morph="--"/>
+        </terminals>
+        <nonterminals>
+          <nt id="s63351_500" cat="NX=PER">
+            <edge label="HD" idref="s63351_1"/>
+          </nt>
+          <nt id="s63351_501" cat="NX">
+            <edge label="HD" idref="s63351_2"/>
+          </nt>
+          <nt id="s63351_502" cat="NX">
+            <edge label="HD" idref="s63351_4"/>
+          </nt>
+          <nt id="s63351_503" cat="NX">
+            <edge label="HD" idref="s63351_5"/>
+          </nt>
+          <nt id="s63351_504" cat="NX">
+            <edge label="HD" idref="s63351_502"/>
+            <edge label="-" idref="s63351_503"/>
+          </nt>
+          <nt id="s63351_505" cat="PX">
+            <edge label="-" idref="s63351_3"/>
+            <edge label="HD" idref="s63351_504"/>
+          </nt>
+          <nt id="s63351_506" cat="NX">
+            <edge label="HD" idref="s63351_501"/>
+            <edge label="-" idref="s63351_505"/>
+          </nt>
+          <nt id="s63351_VROOT" cat="VROOT">
+            <edge label="--" idref="s63351_500"/>
+            <edge label="--" idref="s63351_506"/>
+          </nt>
+        </nonterminals>
+      </graph>
+    </s>
+  </body>
+</corpus>

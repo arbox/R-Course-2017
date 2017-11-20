@@ -1,0 +1,6 @@
+"ID","Wortart","TokenFrequenz","TypenFrequenz","Klasse"
+"1","ADJ",421,271,"offen"
+"2","ADV",337,103,"offen"
+"3","N",1311,735,"offen"
+"4","KONJ",458,18,"geschlossen"
+"5","PRAEP",455,37,"geschlossen"
