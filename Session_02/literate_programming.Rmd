@@ -1,0 +1,47 @@
+---
+title: "Erste Schritte mit R"
+author: "Andrei Beliankou"
+date: "November 03, 2016"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button _a document_ will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r summary_block, echo = F, cache = T}
+summary(cars)
+```
+```{r, echo = FALSE}
+print("Hello World!")
+```
+
+You can also embed plots, for example:
+
+```{r cars_plot, echo = FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Wie bekomme Hilfe in R?
+
+Wir möchten die Hilfe für die Funktion `print()` bekommen.
+
+- Variante I:
+```{r}
+?print
+```
+
+- Variante II:
+```{r}
+help(print)
+```
+
+- Variante III:
+Man kann die eingebaute Hilfe in RStudio benuten.
+
+## Aufgaben für selbstständige Arbeit
+
+- in form eines `Rmd`-Dokumentes zugängliche Hilfequellen auflisten
+- ein Streuungsdiagramm mit beliebigen Daten erstellen und exportieren
