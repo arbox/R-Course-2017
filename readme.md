@@ -6,10 +6,10 @@ _Aufgaben und Skripte für den Statistikkurs im Wintersemester 17/18._
 - [Sitzung 01, Woche 16.-22.10.17](Session_01/readme.md)
   Git und Github. Projektverwaltung. Die Arbeitsumgebung `RStudio`.
 
-- Sitzung 02, Woche 23.-29.10.17
+- [Sitzung 02, Woche 23.-29.10.17](Session_02/readme.md)
   Literate Programming. Elemente der Sprache `R`.
 
-- Sitzung 03, Woche 06.11.-12.11.17
+- [Sitzung 03, Woche 06.11.-12.11.17](Session_03/readme.md)
   Datenstrukturen in R. Arbeit mit diversen Datenquellen.
 
 - Sitzung 04, Woche 13.11.-19.11.17
