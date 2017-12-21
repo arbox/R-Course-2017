@@ -1,0 +1,113 @@
+# Arbeit mit Daten
+
+## DataFrames
+
+    Wortart   TokenFrequenz   TypenFrequenz	Klasse
+    ADJ	      421             271           offen
+    ADV       337             103           offen
+    N         1411            735           offen
+    KONJ      458             18            geschlossen
+    PRAEP     455             37            geschlossen
+
+
+```{r echo = TRUE}
+Wortart <- c('ADJ', 'ADV', 'N', 'KONJ', 'PRAEP')
+
+TokenFrequenz <- c(421, 337, 1311, 458, 455)
+TypenFrequenz <- c(271, 103,735,  18, 37)
+Klasse <- c('offen', 'offen', 'offen', 'geschlossen', 'geschlossen')
+
+df1 <- data.frame(Wortart, TokenFrequenz, TypenFrequenz, Klasse)
+
+write.table(df1, file = 'df1.csv', sep = '\t')
+```
+
+* Dataframes einlesen
+```{r echo = TRUE}
+df2 <-  read.table(file = 'df1.csv')
+```
+
+## Elemente ansprechen
+```{r elmes, echo = TRUE}
+df2$TokenFrequenz
+attach(df2)
+TokenFrequenz
+# Wortart
+
+#detach()
+```
+
+## Sortierung und Selektion
+```{r sort, echo = TRUE}
+v12 <- 1:100 # seq(1, 100, 1)
+v13 <- c(1, 4, 5, 3, 6, 9)
+sort(v13)
+sort(v13, TRUE)
+order(v13)
+```
+
+```{r}
+v14 <- 1:100
+v15 <- seq(1, 100)
+v16 <- vector(mode = 'numeric', 100)
+v17 <- seq_along(v16)
+v17
+```
+
+
+```{r ordering, echo = TRUE}
+
+df2[order(df2$TokenFrequenz), ]
+```
+
+## Samples
+
+```{r samples, echo = TRUE}
+set.seed(1)
+df2[sample(length(df2$Klasse)), ]
+df2[sample(length(df2$Klasse)), ]
+```
+
+## Logische Abfragen
+```{r boolean, echo = TRUE}
+subset(df2, df2$Klasse == 'offen' & df2$TokenFrequenz > 100)
+subset(df2, df2$Klasse == 'geschlossen' & df2$Wortart %in% c('KONJ', 'PRAEP'))
+```
+
+## Arbeit mit XML-Dateien
+
+Wir lesen XML-Dateien aus dem Tüba-D/Z-Korpus ein und extrahieren *Lemmata* und laufende *Wortformen*:
+```{r reading_XML, highlight = TRUE, results = 'hide', echo = TRUE, cache = TRUE}
+library(XML)
+
+tokens <- vector('character')
+types <- vector('character')
+
+xmlEventParse(
+  "../data/t_990505_47.xml", 
+  handlers = list(
+    't' = function(name, attr) {
+      tokens <<- c(tokens, attr['word'])
+      types <<- c(types, attr['lemma'])
+      ## morphology
+      }
+    ),
+  addContext = FALSE
+  )
+
+#names(tokens) <- NULL
+tokens <- unname(tokens)
+```
+
+
+## Aufgaben für selbstständige Arbeit
+
+* Einen Dataframe mit dem Wort, Lemma und Wortart anlegen.
+
+* Daten alphabetisch nach dem Wort sortieren und in eine Datei speichern.
+
+* Durchschnittliche Länge der Substantive in Buchstaben berechnen.
+
+* Den Dataframe anpassen und die Verteilung von Substantiven nach dem Genus berechnen.
+
+* Anzahl der autosemantischen Wörtern im Text berechnen.
