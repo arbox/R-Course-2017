@@ -43,4 +43,4 @@ _Aufgaben und Skripte für den Statistikkurs im Wintersemester 17/18._
   Lineare Modelle für metrische Daten
 
 - Session 14, Woche 05.-11.02.18
-  Logistische Regression
+  Klausurwoche
